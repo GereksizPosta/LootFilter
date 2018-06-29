@@ -27,10 +27,10 @@ ItemDisplay[(hp3 OR mp3) CLVL>24]:
 
 
 //Essences (Respec Token)
-ItemDisplay[tes]: %BLUE%** Suffering [Andariel] **
-ItemDisplay[ceh]: %YELLOW%** Hatred [Mephisto] ** 
-ItemDisplay[bet]: %ORANGE%** Terror [Diablo] **
-ItemDisplay[fed]: %GREEN%** Destruction [Baal] ** 
+ItemDisplay[tes]: %BLUE%** Suffering [A] **
+ItemDisplay[ceh]: %YELLOW%** Hatred [M] ** 
+ItemDisplay[bet]: %ORANGE%** Terror [D] **
+ItemDisplay[fed]: %GREEN%** Destruction [B] ** 
 ItemDisplay[toa]: %GOLD%** Token of Absolution ** 
 
 //PoD Items
