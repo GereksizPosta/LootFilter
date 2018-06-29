@@ -265,6 +265,9 @@ ItemDisplay[CL6 !ETH SK50>2]: %NAME% %ORANGE%+3 Shiver Armor
 //+3 Enflame
 ItemDisplay[CL6 !ETH SK52>2]: %NAME% %ORANGE%+3 Enflame
 
+////Assassin Claws////
+ItemDisplay[CL5 TABSK48>2]: %DGREEN%%NAME% %ORANGE%2+ Traps %RED%[%SOCKETS%]
+
 ////Socketed Items
 //Monarch Thresher always needed!
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
