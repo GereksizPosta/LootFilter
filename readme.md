@@ -16,6 +16,11 @@ Don't ask me to add items, this is a good base filter for people to add their ow
 Good luck and have fun!
 Gereksiz!
 
+### Before:
+![Without lootfilter](/images/before.jpg)
+
+### After:
+![With lootfilter](/images/after.jpg)
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
