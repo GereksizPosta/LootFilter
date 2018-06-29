@@ -48,12 +48,10 @@ ItemDisplay[maz]: %PURPLE%%NAME%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
-ItemDisplay[pk1]: %GREEN%*** Terror [Countess] *** 
-ItemDisplay[pk2]: %GREEN%*** Hate [Summoner] *** 
-ItemDisplay[pk3]: %GREEN%*** Destruction [Nihlathak] ***
-ItemDisplay[dhn]: %PURPLE%*** Diablo's Horn ***
-ItemDisplay[bey]: %PURPLE%*** Baal's Eye *** 
-ItemDisplay[mbr]: %PURPLE%*** Mephisto's Brain ***
+ItemDisplay[pk1]: %GREEN%*** Terror [C] *** 
+ItemDisplay[pk2]: %GREEN%*** Hate [S] *** 
+ItemDisplay[pk3]: %GREEN%*** Destruction [N] ***
+ItemDisplay[dhn OR bey OR mbr]: %PURPLE%*** %NAME% ***
 //Ear
 ItemDisplay[ear]: %ORANGE%%NAME%
 
@@ -76,8 +74,8 @@ ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>15]:
 //Keys for Locked Chests
 ItemDisplay[key]: %WHITE%Key
 //Tomes
-ItemDisplay[tbk]: %WHITE%Tome of Town Portal
-ItemDisplay[ibk]: %WHITE%Tome of Identify
+ItemDisplay[tbk]: %WHITE%Tome of TP
+ItemDisplay[ibk]: %WHITE%Tome of ID
 
 
 //Hide MAGIC Quivers & Bolts above level 60
@@ -107,10 +105,9 @@ ItemDisplay[tr1]: %TAN%%NAME%
 ItemDisplay[tr2]: %TAN%%NAME%
 ItemDisplay[xyz]: %TAN%%NAME%
 
-ItemDisplay[INF !RW !leg]:
-
 //All normal white items 1sox hidden
 ItemDisplay[NMAG SOCK=1 !RW !leg]:
+ItemDisplay[INF !RW !leg]:
 
 ////RUNES
 ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07 OR r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16)]: %ORANGE%** %RUNENAME% ** [%RUNENUM%]
@@ -121,29 +118,10 @@ ItemDisplay[(r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33]: %PURPLE%|*********|
 //GEMS
 //1. Amethyst 2. Diamond 3. Emerald 4. Ruby 5. Sapphire 6. Topaz 7. Skull
 //chipped (Tier 1)
-ItemDisplay[GEM=1 GEMTYPE=1 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=2 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=3 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=4 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=5 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=6 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=7 DIFFICULTY>0]:
-//flawed (Tier2)
-ItemDisplay[GEM=2 GEMTYPE=1 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=2 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=3 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=4 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=5 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=6 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=7 DIFFICULTY>0]:
-//normal (Tier3)
-ItemDisplay[GEM=3 GEMTYPE=1 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=2 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=3 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=4 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=5 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=6 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=7 DIFFICULTY>0]:
+ItemDisplay[GEM=1 DIFFICULTY>0]:
+ItemDisplay[GEM=2 DIFFICULTY>1]:
+ItemDisplay[GEM=3 DIFFICULTY>2]:
+
 //chipped (Tier1): (lowercase display)
 ItemDisplay[GEM=1 GEMTYPE=1]: chipped amethyst
 ItemDisplay[GEM=1 GEMTYPE=2]: chipped diamond
@@ -184,9 +162,7 @@ ItemDisplay[GEM=5 GEMTYPE=4]: %ORANGE%P RUBY
 ItemDisplay[GEM=5 GEMTYPE=5]: %ORANGE%P SAPPHIRE
 ItemDisplay[GEM=5 GEMTYPE=6]: %ORANGE%P TOPAZ
 ItemDisplay[GEM=5 GEMTYPE=7]: %ORANGE%P SKULL
-//
 
-***Your own custom items here***
 //Runewords
 ItemDisplay[RW]: %NAME%
 
@@ -231,10 +207,8 @@ ItemDisplay[RARE (rin OR amu OR jew OR EQ7) !ID]: %YELLOW%¤¤ %NAME% %RED%¤¤
 //Rerolling
 ItemDisplay[MAG cm3 ILVL>84]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
-
 ItemDisplay[!UNI (cm1 OR cm3) !ID]: %RED%%NAME%%WHITE% [L%ILVL%]
 ItemDisplay[!UNI cm2 !ID]: %NAME%%WHITE% [L%ILVL%]
-
 ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE% [L%ILVL%]
 
 //Amulets
@@ -256,15 +230,13 @@ ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG S
 ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK50>1 (SOC=0 OR SOC=4)]: %DGREEN%%NAME% %ORANGE%+Shiver Armor %RED%[%SOCKETS%]
 
 //Leveling staves/orbs
-ItemDisplay[WEAPON (SK38>1 OR SK40>1 OR SK41>1 OR SK44>1 OR SK46>1 OR SK47>1 OR SK48>1 OR SK50>1 OR SK52>1 OR SK54>1) CLVL<41]: %NAME% %ORANGE%2+Sorc Skills
+ItemDisplay[WEAPON (CLSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR SK38>1 OR SK40>1 OR SK41>1 OR SK44>1 OR SK46>1 OR SK47>1 OR SK48>1 OR SK50>1 OR SK52>1 OR SK54>1) CLVL<41]: %NAME% %ORANGE%2+Sorc Skills
 
 ////Sorc orbs////
-//+3 Frigerate
-ItemDisplay[CL6 !ETH SK40>2]: %NAME% %ORANGE%+3 Frigerate
-//+3 Shiver Armor
-ItemDisplay[CL6 !ETH SK50>2]: %NAME% %ORANGE%+3 Shiver Armor
-//+3 Enflame
-ItemDisplay[CL6 !ETH SK52>2]: %NAME% %ORANGE%+3 Enflame
+ItemDisplay[CL6 !ETH SK40>1]: %NAME% %ORANGE%+2 Frigerate
+ItemDisplay[CL6 !ETH SK50>1]: %NAME% %ORANGE%+2 Shiver Armor
+ItemDisplay[CL6 !ETH SK52>1]: %NAME% %ORANGE%+2 Enflame
+ItemDisplay[CL6 !ETH SK60>1]: %NAME% %ORANGE%+2 Chilling Armor
 
 ////Assassin Claws////
 ItemDisplay[CL5 TABSK48>2]: %DGREEN%%NAME% %ORANGE%2+ Traps %RED%[%SOCKETS%]
@@ -345,7 +317,6 @@ ItemDisplay[NMAG SUP (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla) ETH 
 ItemDisplay[(7s8 OR 7wc OR 7pa) !ETH !RW NMAG SOCK=0]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa) ETH !RW NMAG SOCK=0]: %GRAY%ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
 
-///////////////////////// BELOW THIS IS FROM Anirml's Loot filter
 ////Wands////
 //Non Magic Wands +3 to Teeth
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK67>2]: %DGREEN%%NAME% %ORANGE%+3 Teeth %RED%[%SOCKETS%]
