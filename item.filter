@@ -3,6 +3,7 @@
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
+ItemDisplay[GOLD<100 CLVL<10]:
 ItemDisplay[GOLD<500 CLVL<20]:
 ItemDisplay[GOLD<1000 CLVL<40]:
 ItemDisplay[GOLD<5000 CLVL>39]:
