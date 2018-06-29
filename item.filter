@@ -1,12 +1,12 @@
-//Gereksiz's Loot filter
+//Gereksiz's Loot filter (Updated June 29, 2018)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
-ItemDisplay[GOLD<50 CLVL<5]:
-ItemDisplay[GOLD<100 CLVL<10]:
-ItemDisplay[GOLD<500 CLVL<20]:
-ItemDisplay[GOLD<1000 CLVL<40]:
-ItemDisplay[GOLD<5000 CLVL>39]:
+ItemDisplay[CLVL<5 GOLD<50]:
+ItemDisplay[CLVL<10 GOLD<100]:
+ItemDisplay[CLVL<20 GOLD<500]:
+ItemDisplay[CLVL<40 GOLD<1000]:
+ItemDisplay[CLVL>39 GOLD<5000]:
 
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
