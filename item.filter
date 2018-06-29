@@ -1,8 +1,8 @@
 //Gereksiz's Loot filter
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
-//Basics
 //Hide Gold Piles Smaller Than (<) X
+ItemDisplay[GOLD<50 CLVL<5]:
 ItemDisplay[GOLD<100 CLVL<10]:
 ItemDisplay[GOLD<500 CLVL<20]:
 ItemDisplay[GOLD<1000 CLVL<40]:
