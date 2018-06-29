@@ -2,7 +2,7 @@
 
 I made this filter, obviously used code from other filters. 
 
-# \[[Download](https://raw.githubusercontent.com/GereksizPosta/LootFilter/master/item.filter)\]
+## \[[Download](https://raw.githubusercontent.com/GereksizPosta/LootFilter/master/item.filter)\]
 
 I make occasional updates to the filter, I recommend downloading it from time to time. 
 
