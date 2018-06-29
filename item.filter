@@ -120,7 +120,7 @@ ItemDisplay[(r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33]: %PURPLE%|*********|
 //chipped (Tier 1)
 ItemDisplay[GEM=1 DIFFICULTY>0]:
 ItemDisplay[GEM=2 DIFFICULTY>1]:
-ItemDisplay[GEM=3 DIFFICULTY>2]:
+ItemDisplay[GEM=3 DIFFICULTY>1]:
 
 //chipped (Tier1): (lowercase display)
 ItemDisplay[GEM=1 GEMTYPE=1]: chipped amethyst
