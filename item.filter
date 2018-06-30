@@ -188,12 +188,9 @@ ItemDisplay[UNI !ID ETH]: ETH %NAME%
 
 //SET ITEMS
 ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ba5 OR 7m7 OR zhb OR xhg OR xhb OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
-ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ba5 OR 7m7 OR zhb OR xhg OR xhb OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc) ETH !ID]: %GRAY%ETH %RED%¤¤ %GREEN%%NAME% %RED%¤¤
 ItemDisplay[SET !ID]: %GREEN%%NAME%
 ItemDisplay[UNI ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
-ItemDisplay[SET ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[UNI ETH]: ETH %NAME%
-ItemDisplay[SET ETH]: ETH %NAME%
 ItemDisplay[UNI SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[SET SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[UNI]: %NAME%
