@@ -225,9 +225,10 @@ ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Staves
 //5os +3 Energy Shield Staff = CTA. 3os +3 es = Memory
-ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK58>1 (SOC=0 OR SOC=4)]: %DGREEN%%NAME% %ORANGE%+Energy Shield %RED%[%SOCKETS%]
-ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK52>1 (SOC=0 OR SOC=4)]: %DGREEN%%NAME% %ORANGE%+Enflame %RED%[%SOCKETS%]
-ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK50>1 (SOC=0 OR SOC=4)]: %DGREEN%%NAME% %ORANGE%+Shiver Armor %RED%[%SOCKETS%]
+ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK58>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Energy Shield %RED%[%SOCKETS%]
+ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK52>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Enflame %RED%[%SOCKETS%]
+ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK50>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Shiver Armor %RED%[%SOCKETS%]
+ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK60>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Chilling Armor %RED%[%SOCKETS%]
 
 //Leveling staves/orbs
 ItemDisplay[WEAPON (CLSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR SK38>1 OR SK40>1 OR SK41>1 OR SK44>1 OR SK46>1 OR SK47>1 OR SK48>1 OR SK50>1 OR SK52>1 OR SK54>1) CLVL<41]: %NAME% %ORANGE%2+Sorc Skills
@@ -247,20 +248,20 @@ ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %RE
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=4]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
 
 //Body Armors We Like: (Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=15 !SOC=1]: %RED%%NAME% +15%ED %PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED=15 !SOC=1]: ETH %RED%%NAME% +15%ED %PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=14 !SOC=1]: %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED=14 !SOC=1]: ETH %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=13 !SOC=1]: %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED=13 !SOC=1]: ETH %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=12 !SOC=1]: %DGREEN%%NAME% +12%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED=12 !SOC=1]: ETH %DGREEN%%NAME% +12%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=11 !SOC=1]: %DGREEN%%NAME% +11%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED=11 !SOC=1]: ETH %DGREEN%%NAME% +11%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=10 !SOC=1]: %DGREEN%%NAME% +10%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED=10 !SOC=1]: ETH %DGREEN%%NAME% +10%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED<10 !SOC=1]: %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED<10 !SOC=1]: ETH %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=15 !SOCK=1]: %RED%%NAME% +15%ED %PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED=15 !SOCK=1]: ETH %RED%%NAME% +15%ED %PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=14 !SOCK=1]: %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED=14 !SOCK=1]: ETH %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=13 !SOCK=1]: %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED=13 !SOCK=1]: ETH %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=12 !SOCK=1]: %DGREEN%%NAME% +12%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED=12 !SOCK=1]: ETH %DGREEN%%NAME% +12%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=11 !SOCK=1]: %DGREEN%%NAME% +11%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED=11 !SOCK=1]: ETH %DGREEN%%NAME% +11%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=10 !SOCK=1]: %DGREEN%%NAME% +10%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED=10 !SOCK=1]: ETH %DGREEN%%NAME% +10%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED<10 !SOCK=1]: %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW ED<10 !SOCK=1]: ETH %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
 
 //Paladin Shields
 ItemDisplay[CL3 ELT !ETH NMAG RES>39 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %RED%[%SOCKETS%]
@@ -282,24 +283,24 @@ ItemDisplay[NMAG CLVL>39 ETH !RW (WEAPON OR ARMOR) SOCK>2]: ETH %NAME% %ORANGE%[
 
 //Non-Socketed Armor
 //Body Armor (Only show Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=15 AND SOC=0)]: %DGREEN%%NAME% +15%ED %PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=15 AND SOC=0)]: %GRAY%ETH %DGREEN%%NAME% +15%ED %PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=14 AND SOC=0)]: %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=14 AND SOC=0)]: %GRAY%ETH %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=13 AND SOC=0)]: %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=13 AND SOC=0)]: %GRAY%ETH %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=12 AND SOC=0)]: %DGREEN%%NAME% +12%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=12 AND SOC=0)]: %GRAY%ETH %DGREEN%%NAME% +12%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=11 AND SOC=0)]: %DGREEN%%NAME% +11%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=11 AND SOC=0)]: %GRAY%ETH %DGREEN%%NAME% +11%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=10 AND SOC=0)]: %DGREEN%%NAME% +10%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=10 AND SOC=0)]: %GRAY%ETH %DGREEN%%NAME% +10%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED<10 AND SOC=0)]: %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED<10 AND SOC=0)]: %GRAY%ETH %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=15 AND SOCK=0)]: %DGREEN%%NAME% +15%ED %PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=15 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +15%ED %PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=14 AND SOCK=0)]: %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=14 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=13 AND SOCK=0)]: %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=13 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=12 AND SOCK=0)]: %DGREEN%%NAME% +12%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=12 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +12%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=11 AND SOCK=0)]: %DGREEN%%NAME% +11%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=11 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +11%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=10 AND SOCK=0)]: %DGREEN%%NAME% +10%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=10 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +10%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED<10 AND SOCK=0)]: %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED<10 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
 
 //NON-ED (Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) (SOC=0 AND !ETH) !RW]: %NAME%
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) (SOC=0 AND ETH) !RW]: %GRAY%ETH %WHITE%%NAME%
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) (SOCK=0 AND !ETH) !RW]: %NAME%
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) (SOCK=0 AND ETH) !RW]: %GRAY%ETH %WHITE%%NAME%
 
 //SPIRIT 4 soc larzuk
 ItemDisplay[(crs OR bsd OR lsd) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<40]: %DGREEN%%NAME%%WHITE% (4sox at larzuk) %WHITE%[L%ILVL%]
