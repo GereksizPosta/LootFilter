@@ -243,8 +243,8 @@ ItemDisplay[CL5 TABSK48>2]: %DGREEN%%NAME% %ORANGE%2+ Traps %RED%[%SOCKETS%]
 
 ////Socketed Items
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
-ItemDisplay[(7s8 OR 7wc OR 7pa) !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[(7s8 OR 7wc OR 7pa) ETH !RW NMAG SOCK=4]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
+ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=4]: %DGREEN%ETH %NAME% %RED%[%SOCKETS%]
 
 //Body Armors We Like: (Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=15 !SOC=1]: %RED%%NAME% +15%ED %PURPLE%[%SOCKETS%]
@@ -313,8 +313,8 @@ ItemDisplay[NMAG SUP (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla) !ETH
 ItemDisplay[NMAG SUP (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla) ETH !RW NMAG SOCK=0]: ETH %NAME% 
 
 //Thresher 
-ItemDisplay[(7s8 OR 7wc OR 7pa) !ETH !RW NMAG SOCK=0]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[(7s8 OR 7wc OR 7pa) ETH !RW NMAG SOCK=0]: %GRAY%ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG SOCK=0]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=0]: %GRAY%ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
 
 ////Wands////
 //Non Magic Wands +3 to Teeth
