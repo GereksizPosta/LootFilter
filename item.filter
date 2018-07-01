@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated June 30, 2018)
+//Gereksiz's Loot filter (Updated July 1, 2018)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -176,8 +176,8 @@ ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR 
 ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR uhg OR ulc OR umc OR lbl OR xtb OR uhb OR uvb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %GRAY%ETH %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
 
 //RED UNIQUES
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb) !ID !ETH]: %RED%ªªªª %NAME% ªªªª
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg) !ID ETH]: %GRAY%ETH %RED%ªªªª %NAME% ªªªª
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl) !ID !ETH]: %RED%ªªªª %NAME% ªªªª
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl) !ID ETH]: %GRAY%ETH %RED%ªªªª %NAME% ªªªª
 
 //UNIQUE CHARMS
 ItemDisplay[UNI (cm1 OR cm3) !ID]: %RED%¤¤¤ %NAME% ¤¤¤
@@ -187,7 +187,7 @@ ItemDisplay[UNI !ID !ETH]: %NAME%
 ItemDisplay[UNI !ID ETH]: ETH %NAME%
 
 //SET ITEMS
-ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ba5 OR 7m7 OR zhb OR xhg OR xhb OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
+ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
 ItemDisplay[SET !ID]: %GREEN%%NAME%
 ItemDisplay[UNI ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[UNI ETH]: ETH %NAME%
