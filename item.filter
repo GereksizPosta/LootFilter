@@ -228,16 +228,16 @@ ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG S
 ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK60>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Chilling Armor %RED%[%SOCKETS%]
 
 //Leveling staves/orbs
-ItemDisplay[WEAPON (CLSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR SK38>1 OR SK40>1 OR SK41>1 OR SK44>1 OR SK46>1 OR SK47>1 OR SK48>1 OR SK50>1 OR SK52>1 OR SK54>1) CLVL<41]: %NAME% %ORANGE%2+Sorc Skills
+ItemDisplay[WEAPON (CLSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR SK38>1 OR SK40>1 OR SK41>1 OR SK44>1 OR SK46>1 OR SK47>1 OR SK48>1 OR SK50>1 OR SK52>1 OR SK54>1) CLVL<41]: %NAME% %ORANGE%+Sorc Skills
 
 ////Sorc orbs////
-ItemDisplay[CL6 !ETH SK40>1]: %NAME% %ORANGE%+2 Frigerate
-ItemDisplay[CL6 !ETH SK50>1]: %NAME% %ORANGE%+2 Shiver Armor
-ItemDisplay[CL6 !ETH SK52>1]: %NAME% %ORANGE%+2 Enflame
-ItemDisplay[CL6 !ETH SK60>1]: %NAME% %ORANGE%+2 Chilling Armor
+ItemDisplay[CL6 !ETH SK40>1]: %NAME% %ORANGE%+Frigerate
+ItemDisplay[CL6 !ETH SK50>1]: %NAME% %ORANGE%+Shiver Armor
+ItemDisplay[CL6 !ETH SK52>1]: %NAME% %ORANGE%+Enflame
+ItemDisplay[CL6 !ETH SK60>1]: %NAME% %ORANGE%+Chilling Armor
 
 ////Assassin Claws////
-ItemDisplay[CL5 TABSK48>2]: %DGREEN%%NAME% %ORANGE%2+ Traps %RED%[%SOCKETS%]
+ItemDisplay[CL5 TABSK48>2]: %DGREEN%%NAME% %ORANGE%+Traps %RED%[%SOCKETS%]
 
 ////Socketed Items
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
