@@ -167,8 +167,8 @@ ItemDisplay[GEM=5 GEMTYPE=7]: %ORANGE%P SKULL
 ItemDisplay[RW]: %NAME%
 
 //Crafting Belts: 
-ItemDisplay[MAG zvb ILVL>84]: %NAME%%ORANGE% [Caster Belt]
-ItemDisplay[MAG uvc ILVL>84]: %NAME%%ORANGE% [Caster Belt]
+ItemDisplay[MAG zvb EXC]: %NAME%%ORANGE% [Caster Belt]
+ItemDisplay[MAG uvc ELT]: %NAME%%ORANGE% [Caster Belt]
 
 //PURPLE UNIQUES 
 ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
