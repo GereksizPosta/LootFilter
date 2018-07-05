@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated July 2, 2018)
+//Gereksiz's Loot filter (Updated July 4, 2018)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -22,9 +22,8 @@ ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%MM
 ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%LM
 ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%Mana
 ItemDisplay[(hp1 OR mp1) CLVL>14]:
-ItemDisplay[(hp2 OR mp2) CLVL>17]:
-ItemDisplay[(hp3 OR mp3) CLVL>24]:
-
+ItemDisplay[(hp2 OR mp2) CLVL>20]:
+ItemDisplay[(hp3 OR mp3) CLVL>25]:
 
 //Essences (Respec Token)
 ItemDisplay[tes]: %BLUE%** Suffering [A] **
@@ -60,16 +59,16 @@ ItemDisplay[tsc]: %GREEN%!%WHITE%TP
 ItemDisplay[isc]: %GREEN%!%WHITE%ID
 ItemDisplay[yps]: %GREEN%!%WHITE%Anti
 ItemDisplay[wms CLVL<60]: %ORANGE%!%WHITE%Thaw
-ItemDisplay[vps CLVL<55]: %GREEN%!%WHITE%Stam
+ItemDisplay[vps CLVL<60]: %GREEN%!%WHITE%Stam
 ItemDisplay[(wms OR vps) CLVL>59]:
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling, Stamina 
-ItemDisplay[gpm CLVL<15]:%GREEN%!%WHITE%Chok
-ItemDisplay[opm CLVL<15]:%ORANGE%!%WHITE%Exp
-ItemDisplay[opl CLVL<15]:%ORANGE%!%WHITE%Fulm
-ItemDisplay[ops CLVL<15]:%ORANGE%!%WHITE%Oil
-ItemDisplay[gps CLVL<15]:%GREEN%!%WHITE%Ranc
-ItemDisplay[gpl CLVL<15]:%GREEN%!%WHITE%Stran
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>15]:
+ItemDisplay[gpm CLVL<20]:%GREEN%!%WHITE%Chok
+ItemDisplay[opm CLVL<20]:%ORANGE%!%WHITE%Exp
+ItemDisplay[opl CLVL<20]:%ORANGE%!%WHITE%Fulm
+ItemDisplay[ops CLVL<20]:%ORANGE%!%WHITE%Oil
+ItemDisplay[gps CLVL<20]:%GREEN%!%WHITE%Ranc
+ItemDisplay[gpl CLVL<20]:%GREEN%!%WHITE%Stran
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>20]:
 
 //Keys for Locked Chests
 ItemDisplay[key]: %WHITE%Key
