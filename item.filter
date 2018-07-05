@@ -76,7 +76,6 @@ ItemDisplay[key]: %WHITE%Key
 ItemDisplay[tbk]: %WHITE%Tome of TP
 ItemDisplay[ibk]: %WHITE%Tome of ID
 
-
 //Hide MAGIC Quivers & Bolts above level 60
 ItemDisplay[aq2 MAG ILVL>60]:
 ItemDisplay[aq2 RARE ILVL>60]: %NAME%
@@ -120,7 +119,6 @@ ItemDisplay[(r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33]: %PURPLE%|*********|
 ItemDisplay[GEM=1 DIFFICULTY>0]:
 ItemDisplay[GEM=2 DIFFICULTY>1]:
 ItemDisplay[GEM=3 DIFFICULTY>1]:
-
 //chipped (Tier1): (lowercase display)
 ItemDisplay[GEM=1 GEMTYPE=1]: chipped amethyst
 ItemDisplay[GEM=1 GEMTYPE=2]: chipped diamond
