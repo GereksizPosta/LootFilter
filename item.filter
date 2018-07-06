@@ -195,7 +195,6 @@ ItemDisplay[SET]: %NAME%
 
 //RARES
 ItemDisplay[RARE (rin OR amu OR jew OR EQ7) !ID]: %YELLOW%¤¤ %NAME% %RED%¤¤
-//ItemDisplay[ILVL>0 ILVL<35 NORM RARE !ID (ARMOR OR WEAPON)]: %NAME%
 
 //CHARMS
 //Rerolling
