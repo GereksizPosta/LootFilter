@@ -16,14 +16,14 @@ ItemDisplay[hp5]: %RED%!%WHITE%H+
 ItemDisplay[mp4]: %BLUE%!%WHITE%M
 ItemDisplay[mp5]: %BLUE%!%WHITE%M+
 ItemDisplay[(hp1 OR mp1) CLVL>14]:
-ItemDisplay[(hp2 OR mp2) CLVL>18]:
-ItemDisplay[(hp3 OR mp3) CLVL>25]:
+ItemDisplay[(hp2 OR mp2) CLVL>19]:
+ItemDisplay[(hp3 OR mp3) CLVL>29]:
 ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%MH
-ItemDisplay[hp2 CLVL<19]: %RED%!%WHITE%LH
-ItemDisplay[hp3 CLVL<26]: %RED%!%WHITE%Heal
+ItemDisplay[hp2 CLVL<20]: %RED%!%WHITE%LH
+ItemDisplay[hp3 CLVL<30]: %RED%!%WHITE%Heal
 ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%MM
-ItemDisplay[mp2 CLVL<19]: %BLUE%!%WHITE%LM
-ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%Mana
+ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%LM
+ItemDisplay[mp3 CLVL<30]: %BLUE%!%WHITE%Mana
 
 //Essences (Respec Token)
 ItemDisplay[tes]: %BLUE%** Suffering [A] **
@@ -184,7 +184,7 @@ ItemDisplay[MAG cm3 ILVL>84]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[!UNI (cm1 OR cm3) !ID]: %RED%%NAME%%WHITE% [L%ILVL%]
 ItemDisplay[!UNI cm2 !ID]: %NAME%%WHITE% [L%ILVL%]
-ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE% [L%ILVL%]
+ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE%
 
 //Amulets
 ItemDisplay[MAG amu ILVL>87]: %BLUE%%NAME%%ORANGE% [L%ILVL%]
@@ -196,7 +196,7 @@ ItemDisplay[MAG rin ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Magic Jewels
 ItemDisplay[MAG !ID jew]: %RED%%NAME%%WHITE% [L%ILVL%]
-ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE% [L%ILVL%]
+ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE%
 
 //Staves
 //5os +3 Energy Shield Staff = CTA. 3os +3 es = Memory
