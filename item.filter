@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated July 7, 2018)
+//Gereksiz's Loot filter (Updated July 4, 2018)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -62,12 +62,12 @@ ItemDisplay[wms CLVL<60]: %ORANGE%!%WHITE%Thaw
 ItemDisplay[vps CLVL<60]: %GREEN%!%WHITE%Stam
 ItemDisplay[(wms OR vps) CLVL>59]:
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling, Stamina 
-ItemDisplay[gpm CLVL<20]:%GREEN%!%WHITE%Chok
-ItemDisplay[opm CLVL<20]:%ORANGE%!%WHITE%Exp
-ItemDisplay[opl CLVL<20]:%ORANGE%!%WHITE%Fulm
-ItemDisplay[ops CLVL<20]:%ORANGE%!%WHITE%Oil
-ItemDisplay[gps CLVL<20]:%GREEN%!%WHITE%Ranc
-ItemDisplay[gpl CLVL<20]:%GREEN%!%WHITE%Stran
+ItemDisplay[gpm CLVL<21]:%GREEN%!%WHITE%Chok
+ItemDisplay[opm CLVL<21]:%ORANGE%!%WHITE%Exp
+ItemDisplay[opl CLVL<21]:%ORANGE%!%WHITE%Fulm
+ItemDisplay[ops CLVL<21]:%ORANGE%!%WHITE%Oil
+ItemDisplay[gps CLVL<21]:%GREEN%!%WHITE%Ranc
+ItemDisplay[gpl CLVL<21]:%GREEN%!%WHITE%Stran
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>20]:
 
 //Keys for Locked Chests
@@ -209,10 +209,10 @@ ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG S
 ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK50>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Shiver Armor %RED%[%SOCKETS%]
 ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK60>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Chilling Armor %RED%[%SOCKETS%]
 
+ItemDisplay[(obf OR oba OR ob5) NMAG SK52>1]: %DGREEN%%NAME% %RED%+Enflame [%SOCKETS%]
+
 //Leveling staves/orbs
 ItemDisplay[WEAPON (CLSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR SK38>1 OR SK40>1 OR SK41>1 OR SK44>1 OR SK46>1 OR SK47>1 OR SK48>1 OR SK50>1 OR SK52>1 OR SK54>1) CLVL<41]: %NAME% %ORANGE%+Sorc Skills
-
-ItemDisplay[(obf OR oba OR ob5) NMAG SK52>1]: %DGREEN%%NAME% %RED%+Enflame [%SOCKETS%]
 
 ////Sorc orbs////
 ItemDisplay[CL6 !ETH SK40>1]: %NAME% %ORANGE%+Frigerate
