@@ -244,17 +244,15 @@ ItemDisplay[CL3 ELT !ETH NMAG RES>0 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %GRAY%[%
 ItemDisplay[CL3 ELT !ETH NMAG RES>39 !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL3 ELT !ETH NMAG RES>0 !SOCK=1]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 
-//Until 20 show everything more than 1 socket
-ItemDisplay[NMAG CLVL<20 !ETH !RW SOCK>1]: %NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[NMAG CLVL<20 ETH !RW SOCK>1]: ETH %NAME% %ORANGE%[%SOCKETS%]
-
-//Until 40 I need everything that has more than 2 sockets
-ItemDisplay[NMAG CLVL<40 !ETH !RW SOCK>2]: %NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[NMAG CLVL<40 ETH !RW SOCK>2]: ETH %NAME% %ORANGE%[%SOCKETS%]
-
-//After 40 I only need 3+ soc weapon or armor
-ItemDisplay[NMAG CLVL>39 !ETH !RW (WEAPON OR ARMOR) SOCK>2]: %NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[NMAG CLVL>39 ETH !RW (WEAPON OR ARMOR) SOCK>2]: ETH %NAME% %ORANGE%[%SOCKETS%]
+//Socket Magic
+ItemDisplay[NMAG CLVL>39 !ETH !RW (SOCK<3 AND !SOCK=0)]: 
+ItemDisplay[NMAG CLVL>39 ETH !RW (SOCK<3 AND !SOCK=0)]: 
+ItemDisplay[NMAG CLVL>39 !ETH !RW (WEAPON OR ARMOR) (SOCK>2 AND !SOCK=0)]: %NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG CLVL>39 ETH !RW (WEAPON OR ARMOR) (SOCK>2 AND !SOCK=0)]: ETH %NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG CLVL<40 !ETH !RW (SOCK<3 AND !SOCK=0))]: %NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG CLVL<40 ETH !RW (SOCK<3 AND !SOCK=0)]: ETH %NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG !ETH !RW (SOCK>1 AND !SOCK=0)]: %NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW (SOCK>1 AND !SOCK=0)]: ETH %NAME% %ORANGE%[%SOCKETS%]
 
 //Non-Socketed Armor
 //Body Armor (Only show Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
@@ -328,7 +326,7 @@ ItemDisplay[NMAG ETH CLVL<20]: ETH %NAME% %WHITE%[L%ILVL%]
 ItemDisplay[MAG !ETH !ID CLVL<20]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[MAG ETH !ID CLVL<20]: %GRAY%ETH %BLUE%%NAME% %WHITE%[L%ILVL%]
 
-ItemDisplay[MAG (!EXC OR !ELT) !ID CLVL>20]: 
+ItemDisplay[MAG (!EXC OR !ELT) !ID CLVL>19]: 
 
 ItemDisplay[MAG EXC !ETH !ID CLVL<40]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[MAG EXC ETH !ID CLVL<40]: %GRAY%ETH %BLUE%%NAME% %WHITE%[L%ILVL%]
@@ -342,5 +340,5 @@ ItemDisplay[(MAG AND ELT) ETH !ID]: %GRAY%ETH %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[(EXC OR ELT) RARE !ETH !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[(EXC OR ELT) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME% %WHITE%[L%ILVL%]
 
-ItemDisplay[(MAG OR RARE) !ID CLVL>40]:
-ItemDisplay[NMAG !RW CLVL>20]: 
+ItemDisplay[(MAG OR RARE) !ID CLVL>39]:
+ItemDisplay[NMAG !RW CLVL>19]: 
