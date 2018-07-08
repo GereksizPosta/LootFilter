@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated July 4, 2018)
+//Gereksiz's Loot filter (Updated July 7, 2018)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -9,12 +9,12 @@ ItemDisplay[CLVL<40 GOLD<1000]:
 ItemDisplay[CLVL>39 GOLD<5000]:
 
 //Health & Mana Potions
+ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
 ItemDisplay[hp4]: %RED%!%WHITE%H
 ItemDisplay[hp5]: %RED%!%WHITE%H+
 ItemDisplay[mp4]: %BLUE%!%WHITE%M
 ItemDisplay[mp5]: %BLUE%!%WHITE%M+
-ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
 ItemDisplay[(hp1 OR mp1) CLVL>14]:
 ItemDisplay[(hp2 OR mp2) CLVL>18]:
 ItemDisplay[(hp3 OR mp3) CLVL>25]:
@@ -34,9 +34,9 @@ ItemDisplay[toa]: %GOLD%** Token of Absolution **
 
 //PoD Items
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
-ItemDisplay[cx6]: %PURPLE%%NAME%
-ItemDisplay[cx7]: %PURPLE%¤¤¤¤ KEY OF CHAOS ¤¤¤¤
 ItemDisplay[cx8]: %GREEN%Orb of Enchantment
+ItemDisplay[cx7]: %PURPLE%¤¤¤ KEY OF CHAOS ¤¤¤
+ItemDisplay[cx6]: %ORANGE%%NAME%
 ItemDisplay[ma1]: %PURPLE%%NAME%
 ItemDisplay[ma2]: %PURPLE%%NAME%
 ItemDisplay[ma3]: %PURPLE%%NAME%
@@ -47,10 +47,10 @@ ItemDisplay[maz]: %PURPLE%%NAME%
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
-ItemDisplay[pk1]: %GREEN%*** Terror [C] *** 
-ItemDisplay[pk2]: %GREEN%*** Hate [S] *** 
+ItemDisplay[pk1]: %GREEN%*** Terror [C] ***
+ItemDisplay[pk2]: %GREEN%*** Hate [S] ***
 ItemDisplay[pk3]: %GREEN%*** Destruction [N] ***
-ItemDisplay[dhn OR bey OR mbr]: %PURPLE%*** %NAME% ***
+ItemDisplay[dhn OR bey OR mbr]: %PURPLE%%NAME%
 //Ear
 ItemDisplay[ear]: %ORANGE%%NAME%
 
@@ -78,18 +78,14 @@ ItemDisplay[ibk]: %WHITE%Tome of ID
 
 //Hide MAGIC Quivers & Bolts above level 60
 ItemDisplay[aq2 MAG ILVL>60]:
-ItemDisplay[aq2 RARE ILVL>60]: %NAME%
-ItemDisplay[aq2 UNI ILVL>60]: %NAME%
-ItemDisplay[aq2 SET ILVL>60]: %NAME%
+ItemDisplay[aq2 (RARE OR UNI OR SET) ILVL>60]: %NAME%
 ItemDisplay[cq2 MAG ILVL>60]:
-ItemDisplay[cq2 RARE ILVL>60]: %NAME%
-ItemDisplay[cq2 UNI ILVL>60]: %NAME%
-ItemDisplay[cq2 SET ILVL>60]: %NAME%
+ItemDisplay[cq2 (RARE OR UNI OR SET) ILVL>60]: %NAME%
 
 //misc
 ItemDisplay[bbb OR ass OR bkd OR bks OR box OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz]: %TAN%%NAME%
 
-//All normal white items 1sox hidden
+//All normal white items with 1 socket hidden
 ItemDisplay[NMAG SOCK=1 !RW !leg]:
 ItemDisplay[INF !RW !leg]:
 
@@ -97,7 +93,7 @@ ItemDisplay[INF !RW !leg]:
 ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07 OR r08 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16)]: %ORANGE%** %RUNENAME% ** [%RUNENUM%]
 ItemDisplay[(r17 OR r18 OR r19 OR r20)]: %ORANGE%|***| %RUNENAME% |***| [%RUNENUM%]
 ItemDisplay[(r21 OR r22 OR r23 OR r24 OR r25 OR r26)]: %PURPLE%|*****| %RUNENAME% |*****| [%RUNENUM%]
-ItemDisplay[(r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33]: %PURPLE%|*********| %RUNENAME% |********| [%RUNENUM%]
+ItemDisplay[(r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33]: %PURPLE%|*********| %RUNENAME% |*********| [%RUNENUM%]
 
 //GEMS
 //1. Amethyst 2. Diamond 3. Emerald 4. Ruby 5. Sapphire 6. Topaz 7. Skull
@@ -209,8 +205,6 @@ ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG S
 ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK50>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Shiver Armor %RED%[%SOCKETS%]
 ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK60>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Chilling Armor %RED%[%SOCKETS%]
 
-ItemDisplay[(obf OR oba OR ob5) NMAG SK52>1]: %DGREEN%%NAME% %RED%+Enflame [%SOCKETS%]
-
 //Leveling staves/orbs
 ItemDisplay[WEAPON (CLSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR SK38>1 OR SK40>1 OR SK41>1 OR SK44>1 OR SK46>1 OR SK47>1 OR SK48>1 OR SK50>1 OR SK52>1 OR SK54>1) CLVL<41]: %NAME% %ORANGE%+Sorc Skills
 
@@ -221,7 +215,7 @@ ItemDisplay[CL6 !ETH SK52>1]: %NAME% %ORANGE%+Enflame
 ItemDisplay[CL6 !ETH SK60>1]: %NAME% %ORANGE%+Chilling Armor
 
 ////Assassin Claws////
-ItemDisplay[CL5 TABSK48>2]: %DGREEN%%NAME% %ORANGE%+Traps %RED%[%SOCKETS%]
+ItemDisplay[CL5 (TABSK48>1 OR SK271>1 OR CLSK6>1)]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
 ////Socketed Items
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
@@ -301,16 +295,13 @@ ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=0]: %GRAY%ETH %DGREEN%%
 ////Wands////
 //Non Magic Wands +3 to Teeth
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK67>2]: %DGREEN%%NAME% %ORANGE%+3 Teeth %RED%[%SOCKETS%]
-//Non Magic Wands +3 to Deadly Poison
-ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK73>2]: %DGREEN%%NAME% %ORANGE%+3 Deadly Poison %RED%[%SOCKETS%]
 //Non Magic Wands +3 to Bone Spear
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK84>2]: %DGREEN%%NAME% %ORANGE%+3 Bone Spear %RED%[%SOCKETS%]
 //Non Magic Wands +3 to Poison Nova
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK92>2]: %DGREEN%%NAME% %ORANGE%+3 Poison Nova %RED%[%SOCKETS%]
 //Non Magic Wands +3 to Desecrate
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK83>2]: %DGREEN%%NAME% %ORANGE%+3 Desecrate %RED%[%SOCKETS%]
-//Non Magic Wands +3 to Fire Golem
-ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK94>2]: %DGREEN%%NAME% %ORANGE%+3 Fire Golem %RED%[%SOCKETS%]
+
 //Leveling Wands
 //Non Magic Wands +3/2 to Teeth
 ItemDisplay[WP12 !ETH NMAG SK67>1]: %GRAY%%NAME% %ORANGE%+ Teeth %YELLOW%[%SOCKETS%]
