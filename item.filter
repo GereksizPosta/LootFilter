@@ -163,7 +163,7 @@ ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR 
 ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb) !ID ETH]: %GRAY%ETH %RED%ªªª %NAME% ªªª
 
 //UNIQUE CHARMS
-ItemDisplay[UNI (cm1 OR cm3) !ID]: %RED%¤¤¤ %NAME% ¤¤¤
+ItemDisplay[UNI (cm1 OR cm3) !ID]: %PURPLE%¤¤¤ %NAME% ¤¤¤
 
 //Rest of the Uniques:
 ItemDisplay[UNI !ID !ETH]: %NAME% 
