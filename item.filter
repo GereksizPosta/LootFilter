@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated July 8, 2018)
+//Gereksiz's Loot filter (Updated July 11, 2018)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -37,13 +37,17 @@ ItemDisplay[cx5]: %PURPLE%Orb of Corruption
 ItemDisplay[cx8]: %GREEN%Orb of Enchantment
 ItemDisplay[cx7]: %PURPLE%¤¤¤ KEY OF CHAOS ¤¤¤
 ItemDisplay[cx6]: %ORANGE%%NAME%
+ItemDisplay[maz]: %PURPLE%%NAME%
 ItemDisplay[ma1]: %PURPLE%%NAME%
 ItemDisplay[ma2]: %PURPLE%%NAME%
 ItemDisplay[ma3]: %PURPLE%%NAME%
 ItemDisplay[ma4]: %PURPLE%%NAME%
 ItemDisplay[ma5]: %PURPLE%%NAME%
 ItemDisplay[ma6]: %PURPLE%%NAME%
-ItemDisplay[maz]: %PURPLE%%NAME%
+ItemDisplay[ma7]: %PURPLE%%NAME%
+ItemDisplay[ma8]: %PURPLE%%NAME%
+ItemDisplay[ma9]: %PURPLE%%NAME%
+
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
