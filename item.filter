@@ -125,7 +125,7 @@ ItemDisplay[GEM=2 GEMTYPE=7]: flawed skull
 ItemDisplay[GEM=3 GEMTYPE=1]: amethyst
 ItemDisplay[GEM=3 GEMTYPE=2]: diamond
 ItemDisplay[GEM=3 GEMTYPE=3]: emerald
-ItemDisplay[GEM=3 GEMTYPE=4]: ruby
+//ItemDisplay[GEM=3 GEMTYPE=4]: ruby
 ItemDisplay[GEM=3 GEMTYPE=5]: sapphire
 ItemDisplay[GEM=3 GEMTYPE=6]: topaz
 ItemDisplay[GEM=3 GEMTYPE=7]: skull
