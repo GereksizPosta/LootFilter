@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated July 14, 2018)
+//Gereksiz's Loot filter (Updated July 15, 2018)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -294,8 +294,7 @@ ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) (SOCK=0 AND ETH) !RW]: %GRAY%ETH %WH
 ItemDisplay[(crs OR bsd OR lsd) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<40]: %DGREEN%%NAME%%WHITE% (4sox at larzuk) %WHITE%[L%ILVL%]
 
 //Shields
-ItemDisplay[(uit OR ush) NMAG CLVL<40 SOCK=0 !ETH !RW]: %NAME%
-ItemDisplay[(uit OR ush) NMAG CLVL<40 SOCK=0 ETH !RW]: %GRAY%ETH %WHITE%%NAME%
+ItemDisplay[(uit OR ush) NMAG CLVL<70 SOCK=0 !ETH !RW]: %NAME% %ORANGE%[%SOCKETS%]
 
 //Some additional weapons
 ItemDisplay[NMAG SUP (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla) !ETH !RW NMAG SOCK=0]: %NAME% 
