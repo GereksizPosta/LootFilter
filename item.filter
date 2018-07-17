@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated July 15, 2018)
+//Gereksiz's Loot filter (Updated July 16, 2018)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -241,6 +241,9 @@ ItemDisplay[CL5 (TABSK48>1 OR SK271>1 OR CLSK6>1)]: %DGREEN%%NAME% %RED%[%SOCKET
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=4]: %GRAY%ETH %PURPLE% == %NAME% == [%SOCKETS%]
+ItemDisplay[7p7 NMAG !ETH SOCK=0]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[7p7 NMAG ETH SOCK=0]: %GRAY%ETH %PURPLE% == %NAME% == [%SOCKETS%]
+
 
 //Body Armors We Like: (Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=15 !SOCK=1]: %PURPLE%%NAME% +15%ED [%SOCKETS%]
@@ -297,8 +300,8 @@ ItemDisplay[(crs OR bsd OR lsd) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<
 ItemDisplay[(uit OR ush) NMAG CLVL<70 SOCK=0 !ETH !RW]: %NAME% %ORANGE%[%SOCKETS%]
 
 //Some additional weapons
-ItemDisplay[NMAG SUP (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla) !ETH !RW NMAG SOCK=0]: %NAME% 
-ItemDisplay[NMAG SUP (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla) ETH !RW NMAG SOCK=0]: ETH %NAME% 
+ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla) !ETH !RW NMAG SOCK=0]: %NAME% 
+ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla) ETH !RW NMAG SOCK=0]: ETH %NAME% 
 
 //Merc Weapons 
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG SOCK=0]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
