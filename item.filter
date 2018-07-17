@@ -87,7 +87,7 @@ ItemDisplay[cq2 MAG ILVL>60]:
 ItemDisplay[cq2 (RARE OR UNI OR SET) ILVL>60]: %NAME%
 
 //misc
-ItemDisplay[bbb OR ass OR bkd OR bks OR box OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz]: %TAN%%NAME%
+ItemDisplay[bbb OR ass OR bkd OR bks OR box OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz OR std]: %TAN%%NAME%
 
 //All normal white items with 1 socket hidden
 ItemDisplay[NMAG SOCK=1 !RW !leg]:
