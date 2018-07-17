@@ -241,9 +241,6 @@ ItemDisplay[CL5 (TABSK48>1 OR SK271>1 OR CLSK6>1)]: %DGREEN%%NAME% %RED%[%SOCKET
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=4]: %GRAY%ETH %PURPLE% == %NAME% == [%SOCKETS%]
-ItemDisplay[7p7 NMAG !ETH SOCK=0]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[7p7 NMAG ETH SOCK=0]: %GRAY%ETH %PURPLE% == %NAME% == [%SOCKETS%]
-
 
 //Body Armors We Like: (Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW ED=15 !SOCK=1]: %PURPLE%%NAME% +15%ED [%SOCKETS%]
@@ -290,8 +287,8 @@ ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED<10 AND SOCK=0 AND !ED=0
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED<10 AND SOCK=0 AND !ED=0)]: %GRAY%ETH %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
 
 //NON-ED (Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) (SOCK=0 AND !ETH) !RW]: %NAME%
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) (SOCK=0 AND ETH) !RW]: %GRAY%ETH %WHITE%%NAME%
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) (SOCK=0 AND !ETH) !RW]: %NAME%
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) (SOCK=0 AND ETH) !RW]: %GRAY%ETH %WHITE%%NAME%
 
 //SPIRIT 4 soc larzuk
 ItemDisplay[(crs OR bsd OR lsd) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<40]: %DGREEN%%NAME%%WHITE% (4sox at larzuk) %WHITE%[L%ILVL%]
@@ -300,8 +297,8 @@ ItemDisplay[(crs OR bsd OR lsd) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<
 ItemDisplay[(uit OR ush) NMAG CLVL<70 SOCK=0 !ETH !RW]: %NAME% %ORANGE%[%SOCKETS%]
 
 //Some additional weapons
-ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla) !ETH !RW NMAG SOCK=0]: %NAME% 
-ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla) ETH !RW NMAG SOCK=0]: ETH %NAME% 
+ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla OR 7wa OR 7p7) !ETH !RW NMAG SOCK=0]: %NAME% 
+ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla OR 7wa OR 7p7) ETH !RW NMAG SOCK=0]: ETH %NAME% 
 
 //Merc Weapons 
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG SOCK=0]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
