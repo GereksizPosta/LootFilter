@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated July 16, 2018)
+//Gereksiz's Loot filter (Updated July 18, 2018)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -179,7 +179,7 @@ ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR 
 ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb) !ID ETH]: %GRAY%ETH %RED%ªªª %NAME% ªªª
 
 //UNIQUE CHARMS
-ItemDisplay[UNI (cm1 OR cm3) !ID]: %PURPLE%*** %NAME% ***
+ItemDisplay[UNI (cm1 OR cm2 OR cm3) !ID]: %PURPLE%*** %NAME% ***
 
 //Rest of the Uniques:
 ItemDisplay[UNI !ID !ETH]: %NAME% 
@@ -271,20 +271,20 @@ ItemDisplay[NMAG ETH !RW (SOCK>1 AND !SOCK=0)]: ETH %NAME% %ORANGE%[%SOCKETS%]
 
 //Non-Socketed Armor
 //Body Armor (Only show Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=15 AND SOCK=0)]: %PURPLE%%NAME% +15%ED [%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=15 AND SOCK=0)]: %GRAY%ETH %PURPLE%%NAME% +15%ED [%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=14 AND SOCK=0)]: %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=14 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=13 AND SOCK=0)]: %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=13 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=12 AND SOCK=0)]: %DGREEN%%NAME% +12%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=12 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +12%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=11 AND SOCK=0)]: %DGREEN%%NAME% +11%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=11 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +11%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED=10 AND SOCK=0)]: %DGREEN%%NAME% +10%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED=10 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +10%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) !ETH !RW (ED<10 AND SOCK=0 AND !ED=0)]: %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp) ETH !RW (ED<10 AND SOCK=0 AND !ED=0)]: %GRAY%ETH %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) !ETH !RW (ED=15 AND SOCK=0)]: %PURPLE%%NAME% +15%ED [%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) ETH !RW (ED=15 AND SOCK=0)]: %GRAY%ETH %PURPLE%%NAME% +15%ED [%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) !ETH !RW (ED=14 AND SOCK=0)]: %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) ETH !RW (ED=14 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) !ETH !RW (ED=13 AND SOCK=0)]: %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) ETH !RW (ED=13 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) !ETH !RW (ED=12 AND SOCK=0)]: %DGREEN%%NAME% +12%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) ETH !RW (ED=12 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +12%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) !ETH !RW (ED=11 AND SOCK=0)]: %DGREEN%%NAME% +11%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) ETH !RW (ED=11 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +11%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) !ETH !RW (ED=10 AND SOCK=0)]: %DGREEN%%NAME% +10%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) ETH !RW (ED=10 AND SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% +10%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) !ETH !RW (ED<10 AND SOCK=0 AND !ED=0)]: %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) ETH !RW (ED<10 AND SOCK=0 AND !ED=0)]: %GRAY%ETH %DGREEN%%NAME% +%ED %ORANGE%[%SOCKETS%]
 
 //NON-ED (Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung) (SOCK=0 AND !ETH) !RW]: %NAME%
