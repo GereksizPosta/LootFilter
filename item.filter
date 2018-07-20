@@ -165,9 +165,12 @@ ItemDisplay[skz]: %ORANGE%P %TAN%SKULL
 //Runewords
 ItemDisplay[RW]: %NAME%
 
-//Crafting Belts: 
+//Crafting Belts/Boots: 
 ItemDisplay[MAG zvb EXC]: %NAME%%ORANGE% [Caster Belt]
 ItemDisplay[MAG uvc ELT]: %NAME%%ORANGE% [Caster Belt]
+ItemDisplay[MAG lbt]: %NAME%%ORANGE% [Caster Boots]
+ItemDisplay[MAG xlb]: %NAME%%ORANGE% [Caster Boots]
+ItemDisplay[MAG ulb]: %NAME%%ORANGE% [Caster Boots]
 
 //PURPLE UNIQUES 
 ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
