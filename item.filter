@@ -238,7 +238,7 @@ ItemDisplay[CL6 !ETH SK52>1]: %NAME% %ORANGE%+Enflame
 ItemDisplay[CL6 !ETH SK60>1]: %NAME% %ORANGE%+Chilling Armor
 
 ////Assassin Claws////
-ItemDisplay[CL5 (TABSK48>1 OR SK271>1 OR CLSK6>1)]: %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[CL5 !ETH (TABSK48>1 OR SK271>1 OR CLSK6>1 OR SK277>1 OR SK274>0) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Assassin %RED%[%SOCKETS%]
 
 ////Socketed Items
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
