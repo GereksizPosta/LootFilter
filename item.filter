@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated July 21, 2018)
+//Gereksiz's Loot filter (Updated July 23, 2018)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -277,7 +277,6 @@ ItemDisplay[NMAG !ETH !RW (SOCK>1 AND !SOCK=0)]: %NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW (SOCK>1 AND !SOCK=0)]: ETH %NAME% %ORANGE%[%SOCKETS%]
 
 //Non-Socketed Armor
-//Body Armor (Only show Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW (ED=15 AND SOCK=0)]: %PURPLE%%NAME% +15%ED [%SOCKETS%]
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) ETH !RW (ED=15 AND SOCK=0)]: %GRAY%ETH %PURPLE%%NAME% +15%ED [%SOCKETS%]
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW (ED=14 AND SOCK=0)]: %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
@@ -312,31 +311,20 @@ ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG SOCK=0]: %DGREEN%%NAME% %OR
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=0]: %GRAY%ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
 
 ////Wands////
-//Non Magic Wands +3 to Teeth
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK67>2]: %DGREEN%%NAME% %ORANGE%+3 Teeth %RED%[%SOCKETS%]
-//Non Magic Wands +3 to Bone Spear
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK84>2]: %DGREEN%%NAME% %ORANGE%+3 Bone Spear %RED%[%SOCKETS%]
-//Non Magic Wands +3 to Poison Nova
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK92>2]: %DGREEN%%NAME% %ORANGE%+3 Poison Nova %RED%[%SOCKETS%]
-//Non Magic Wands +3 to Desecrate
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK83>2]: %DGREEN%%NAME% %ORANGE%+3 Desecrate %RED%[%SOCKETS%]
 
 //Leveling Wands
-//Non Magic Wands +3/2 to Teeth
-ItemDisplay[WP12 !ETH NMAG SK67>1]: %GRAY%%NAME% %ORANGE%+ Teeth %YELLOW%[%SOCKETS%]
-//Non Magic Wands +3/2 to Bone Armor
-ItemDisplay[WP12 !ETH NMAG SK68>1]: %GRAY%%NAME% %ORANGE%+ Bone Armor %YELLOW%[%SOCKETS%]
-//Non Magic Wands +3/2 to Deadly Poison
-ItemDisplay[WP12 !ETH NMAG SK73>1]: %GRAY%%NAME% %ORANGE%+ Deadly Poison %YELLOW%[%SOCKETS%]
-//Non Magic Wands +3/2 to Bone Spear
-ItemDisplay[WP12 !ETH NMAG SK84>1]: %GRAY%%NAME% %ORANGE%+ Bone Spear %YELLOW%[%SOCKETS%]
-//Non Magic Wands +3/2 to Poison Nova
-ItemDisplay[WP12 !ETH NMAG SK92>1]: %GRAY%%NAME% %ORANGE%+ Poison Nova %YELLOW%[%SOCKETS%]
-//Non Magic Wands +3/2 to Desecrate
-ItemDisplay[WP12 !ETH NMAG SK83>1]: %GRAY%%NAME% %ORANGE%+ Desecrate %YELLOW%[%SOCKETS%]
+ItemDisplay[WP12 !ETH NMAG SK67>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Teeth %YELLOW%[%SOCKETS%]
+ItemDisplay[WP12 !ETH NMAG SK68>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Bone Armor %YELLOW%[%SOCKETS%]
+ItemDisplay[WP12 !ETH NMAG SK73>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Deadly Poison %YELLOW%[%SOCKETS%]
+ItemDisplay[WP12 !ETH NMAG SK84>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Bone Spear %YELLOW%[%SOCKETS%]
+ItemDisplay[WP12 !ETH NMAG SK92>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Poison Nova %YELLOW%[%SOCKETS%]
+ItemDisplay[WP12 !ETH NMAG SK83>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Desecrate %YELLOW%[%SOCKETS%]
 
-//MAGIC ////////// My Magic Show
-//Magic Circlets
+//MAGIC ////////// 
 ItemDisplay[MAG EQ7 !ETH !ID]: %BLUE%%NAME% %YELLOW%¤¤
 ItemDisplay[MAG EQ7 ETH !ID]: %GRAY%ETH %BLUE%%NAME% %YELLOW%¤¤
 
@@ -361,5 +349,5 @@ ItemDisplay[(MAG AND ELT) ETH !ID]: %GRAY%ETH %BLUE%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[(EXC OR ELT) RARE !ETH !ID]: %YELLOW%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[(EXC OR ELT) RARE ETH !ID]: %GRAY%ETH %YELLOW%%NAME% %WHITE%[L%ILVL%]
 
-ItemDisplay[(MAG OR RARE) !ID CLVL>39]:
+ItemDisplay[(MAG OR RARE) (!EXC OR !ELT) !ID CLVL>39]:
 ItemDisplay[NMAG !RW CLVL>19]: 
