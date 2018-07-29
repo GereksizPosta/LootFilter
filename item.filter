@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated July 23, 2018)
+//Gereksiz's Loot filter (Updated July 29, 2018)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -244,6 +244,7 @@ ItemDisplay[CL5 !ETH (TABSK48>1 OR SK271>1 OR CLSK6>1 OR SK277>1 OR SK274>0) (SO
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=4]: %GRAY%ETH %PURPLE% == %NAME% == [%SOCKETS%]
+ItemDisplay[7p7 ETH !RW NMAG (SOCK=6 OR SOCK=0)]: %GRAY%ETH %PURPLE% == %NAME% == %ORANGE%[%SOCKETS%]
 
 //Body Armors We Like: (Mage Plate, Dusk Shroud, Archon Plate, Light Plate)
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=15 !SOCK=1]: %PURPLE%%NAME% +15%ED [%SOCKETS%]
