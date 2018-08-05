@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated Aug 1, 2018)
+//Gereksiz's Loot filter (Updated Aug 5, 2018)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -203,8 +203,8 @@ ItemDisplay[RARE (rin OR amu OR jew OR EQ7) !ID]: %YELLOW%¤¤ %NAME% %RED%¤¤
 
 //CHARMS
 //Rerolling
-ItemDisplay[MAG cm3 ILVL>84]: %NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG cm1 ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
+ItemDisplay[MAG cm3 ILVL>84]: %RED%%NAME% %ORANGE%[L%ILVL%]
+ItemDisplay[MAG cm1 ILVL=47]: %RED%%NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[!UNI (cm1 OR cm3) !ID]: %RED%%NAME%%WHITE% [L%ILVL%]
 ItemDisplay[!UNI cm2 !ID]: %NAME%%WHITE% [L%ILVL%]
 ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE%
