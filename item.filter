@@ -238,9 +238,11 @@ ItemDisplay[CL6 !ETH SK52>1]: %NAME% %ORANGE%+Enflame
 ItemDisplay[CL6 !ETH SK60>1]: %NAME% %ORANGE%+Chilling Armor
 
 ////Assassin Claws////
-ItemDisplay[CL5 !ETH SK277>1 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Blade Shield %RED%[%SOCKETS%]
-ItemDisplay[CL5 !ETH SK274>0 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ BOI %RED%[%SOCKETS%]
-ItemDisplay[CL5 !ETH SK275>0 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Dragon Flight %RED%[%SOCKETS%]
+ItemDisplay[CL5 !ETH !7xf !7cs (SK277>1 AND SK274>0 AND SK275>0) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ CHAOS BASE %PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 !ETH !7xf !7cs SK277>1 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Blade Shield %RED%[%SOCKETS%]
+ItemDisplay[CL5 !ETH !7xf !7cs SK274>0 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ BOI %RED%[%SOCKETS%]
+ItemDisplay[CL5 !ETH !7xf !7cs SK275>0 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Dragon Flight %RED%[%SOCKETS%]
+ItemDisplay[CL5 !ETH (SK271>0 OR CLSK6>0 OR SK262>0 OR SK278>0)]: %DGREEN%%NAME% %ORANGE%+ Assassin %ORANGE%[%SOCKETS%]
 
 ////Socketed Items
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
