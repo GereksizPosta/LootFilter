@@ -289,7 +289,7 @@ ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR
 ItemDisplay[(crs OR bsd OR lsd) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<40]: %DGREEN%%NAME%%WHITE% (4sox at larzuk) %WHITE%[L%ILVL%]
 
 //Shields
-ItemDisplay[(uit OR ush) NMAG CLVL<70 SOCK=0 !ETH !RW]: %NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[(uit OR ush) NMAG SOCK=0 !ETH !RW]: %NAME% %ORANGE%[%SOCKETS%]
 
 //Some additional weapons
 ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla OR 7wa OR 7p7) !ETH !RW NMAG SOCK=0]: %NAME% 
@@ -304,6 +304,8 @@ ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK67>2]: %DGREEN%%NAME% %ORANGE%+3 Tee
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK84>2]: %DGREEN%%NAME% %ORANGE%+3 Bone Spear %RED%[%SOCKETS%]
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK92>2]: %DGREEN%%NAME% %ORANGE%+3 Poison Nova %RED%[%SOCKETS%]
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK83>2]: %DGREEN%%NAME% %ORANGE%+3 Desecrate %RED%[%SOCKETS%]
+ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK74>1]: %DGREEN%%NAME% %ORANGE%+2 Corpse Exp %RED%[%SOCKETS%]
+
 
 //Leveling Wands
 ItemDisplay[WP12 !ETH NMAG SK67>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Teeth %YELLOW%[%SOCKETS%]
