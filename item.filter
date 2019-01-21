@@ -246,7 +246,7 @@ ItemDisplay[CL5 !ETH (SK271>0 OR CLSK6>0 OR SK262>0 OR SK278>0)]: %DGREEN%%NAME%
 
 ////Socketed Items
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
-ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo OR crs) !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=4]: %GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=6 OR SOCK=0)]: %GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
 
@@ -305,7 +305,6 @@ ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK84>2]: %DGREEN%%NAME% %ORANGE%+3 Bon
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK92>2]: %DGREEN%%NAME% %ORANGE%+3 Poison Nova %RED%[%SOCKETS%]
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK83>2]: %DGREEN%%NAME% %ORANGE%+3 Desecrate %RED%[%SOCKETS%]
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK74>1]: %DGREEN%%NAME% %ORANGE%+2 Corpse Exp %RED%[%SOCKETS%]
-
 
 //Leveling Wands
 ItemDisplay[WP12 !ETH NMAG SK67>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Teeth %YELLOW%[%SOCKETS%]
