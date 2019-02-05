@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated Aug 8, 2018)
+//Gereksiz's Loot filter (Updated Feb 4, 2019)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -178,7 +178,7 @@ ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR 
 ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR uhg OR ulc OR umc OR lbl OR xtb OR uhb OR uvb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %GRAY%ETH %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
 
 //RED UNIQUES
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr) !ID !ETH]: %RED%ªªª %NAME% ªªª
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7) !ID !ETH]: %RED%ªªª %NAME% ªªª
 ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr) !ID ETH]: %GRAY%ETH %RED%ªªª %NAME% ªªª
 
 //UNIQUE CHARMS
@@ -238,7 +238,8 @@ ItemDisplay[CL6 !ETH SK52>1]: %NAME% %ORANGE%+Enflame
 ItemDisplay[CL6 !ETH SK60>1]: %NAME% %ORANGE%+Chilling Armor
 
 ////Assassin Claws////
-ItemDisplay[CL5 !ETH !7xf !7cs (SK277>1 AND SK274>0 AND SK275>0) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ CHAOS BASE %PURPLE%[%SOCKETS%]
+ItemDisplay[CL5 !ETH !7xf !7cs (SK274>0 AND SK275>0) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %PURPLE%+ CHAOS BASE %RED%[%SOCKETS%]
+ItemDisplay[CL5 !ETH !7xf !7cs (SK277>2 AND SK278>2) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ BS + VENOM %RED%[%SOCKETS%]
 ItemDisplay[CL5 !ETH !7xf !7cs SK277>1 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Blade Shield %RED%[%SOCKETS%]
 ItemDisplay[CL5 !ETH !7xf !7cs SK274>0 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ BOI %RED%[%SOCKETS%]
 ItemDisplay[CL5 !ETH !7xf !7cs SK275>0 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Dragon Flight %RED%[%SOCKETS%]
@@ -249,6 +250,8 @@ ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo OR crs) !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=4]: %GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=6 OR SOCK=0)]: %GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[72h ETH !RW NMAG (SOCK=3 OR SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[7wa ETH (SOCK=0 OR SOCK=4 OR SOCK=5 OR SOCK=6)]: %GRAY%ETH %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 
 //Body Armors: 
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=15 !SOCK=1]: %PURPLE%%NAME% +15%ED [%SOCKETS%]
@@ -292,8 +295,8 @@ ItemDisplay[(crs OR bsd OR lsd) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<
 ItemDisplay[(uit OR ush) NMAG SOCK=0 !ETH !RW]: %NAME% %ORANGE%[%SOCKETS%]
 
 //Some additional weapons
-ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla OR 7wa OR 7p7) !ETH !RW NMAG SOCK=0]: %NAME% 
-ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla OR 7wa OR 7p7) ETH !RW NMAG SOCK=0]: ETH %NAME% 
+ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla OR 7wa OR 7p7) !ETH !RW NMAG SOCK=0]: %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla OR 7wa OR 7p7) ETH !RW NMAG SOCK=0]: ETH %NAME% %GRAY%[%SOCKETS%]
 
 //Merc Weapons 
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG SOCK=0]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
