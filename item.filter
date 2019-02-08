@@ -279,8 +279,8 @@ ItemDisplay[CL3 ELT ETH NMAG RES>39 !SOCK=1]: %GRAY%ETH %DGREEN%%NAME% %RED%[%SO
 ItemDisplay[CL3 ELT ETH NMAG RES>0 !SOCK=1]: %GRAY%ETH %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 
 //Amazon Bows
-ItemDisplay[(amb OR am1 OR amc OR am2) SOCK>2 TABSK0>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[6hb (SOCK=0 OR SOCK>3)]: %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[(amb OR am1 OR amc OR am2) NMAG SOCK>2 TABSK0>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[6hb NMAG (SOCK=0 OR SOCK>3)]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
 //Socket Magic
 ItemDisplay[NMAG CLVL>39 !RW (SOCK<3 AND !SOCK=0)]: 
