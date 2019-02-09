@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated Feb 5, 2019)
+//Gereksiz's Loot filter (Updated Feb 9, 2019)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -173,13 +173,13 @@ ItemDisplay[MAG xlb]: %NAME%%ORANGE% [Caster Boots]
 ItemDisplay[MAG ulb]: %NAME%%ORANGE% [Caster Boots]
 
 //PURPLE UNIQUES 
-ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %PURPLE%Â¤Ã˜Ã˜Ã˜Â¤ %NAME% Â¤Ã˜Ã˜Ã˜Â¤
-ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR uhg OR ulc OR umc OR lbl OR xtb OR uhb OR uvb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID !ETH]: %PURPLE%Â¤Ã˜Ã˜Ã˜Â¤ %NAME% Â¤Ã˜Ã˜Ã˜Â¤
-ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR uhg OR ulc OR umc OR lbl OR xtb OR uhb OR uvb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %GRAY%ETH %PURPLE%Â¤Ã˜Ã˜Ã˜Â¤ %NAME% Â¤Ã˜Ã˜Ã˜Â¤
+ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
+ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR uhg OR ulc OR umc OR lbl OR xtb OR uhb OR uvb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID !ETH]: %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
+ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR uhg OR ulc OR umc OR lbl OR xtb OR uhb OR uvb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %GRAY%ETH %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
 
 //RED UNIQUES
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb) !ID !ETH]: %RED%ÂªÂªÂª %NAME% ÂªÂªÂª
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr) !ID ETH]: %GRAY%ETH %RED%ÂªÂªÂª %NAME% ÂªÂªÂª
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb) !ID !ETH]: %RED%ªªª %NAME% ªªª
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr) !ID ETH]: %GRAY%ETH %RED%ªªª %NAME% ªªª
 
 //UNIQUE CHARMS
 ItemDisplay[UNI (cm1 OR cm2 OR cm3 OR cm4) !ID]: %PURPLE%*** %NAME% ***
@@ -189,7 +189,7 @@ ItemDisplay[UNI !ID !ETH]: %NAME%
 ItemDisplay[UNI !ID ETH]: ETH %NAME%
 
 //SET ITEMS
-ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9) !ID]: %RED%Â¤Â¤ %GREEN%%NAME% %RED%Â¤Â¤
+ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
 ItemDisplay[SET !ID]: %GREEN%%NAME%
 ItemDisplay[UNI ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[UNI ETH]: ETH %NAME%
@@ -199,7 +199,7 @@ ItemDisplay[UNI]: %NAME%
 ItemDisplay[SET]: %NAME%
 
 //RARES
-ItemDisplay[RARE (rin OR amu OR jew OR EQ7) !ID]: %YELLOW%Â¤Â¤ %NAME% %RED%Â¤Â¤
+ItemDisplay[RARE (rin OR amu OR jew OR EQ7) !ID]: %YELLOW%¤¤ %NAME% %RED%¤¤
 
 //CHARMS
 //Rerolling
@@ -244,13 +244,15 @@ ItemDisplay[CL5 !ETH !7xf !7cs SK274>0 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORAN
 ItemDisplay[CL5 !ETH !7xf !7cs SK275>0 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Dragon Flight %RED%[%SOCKETS%]
 ItemDisplay[CL5 !ETH (SK271>0 OR CLSK6>0 OR SK262>0 OR SK278>0)]: %DGREEN%%NAME% %ORANGE%+ Assassin %ORANGE%[%SOCKETS%]
 
-////Socketed Items - Monarch, War Pike, Thresher, Cryptic Axe, Colossus Voulge, Berserker Axe, Legend Sword, Colossus Sword, Colossus Blade
+////Base Items - Monarch, War Pike, Thresher, Cryptic Axe, Colossus Voulge, Berserker Axe, Legend Sword, Superior Phase Blade
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo OR crs) !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=4]: %GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=6 OR SOCK=0)]: %GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[72h ETH !RW NMAG (SOCK=3 OR SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[(7wa OR 7gd OR 7fb) ETH !RW NMAG (SOCK=0 OR SOCK=4 OR SOCK=5 OR SOCK=6)]: %GRAY%ETH %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[7wa ETH !RW NMAG (SOCK=0 OR SOCK=4 OR SOCK=5 OR SOCK=6)]: %GRAY%ETH %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[(7gd OR 7fb) ETH !RW NMAG (SOCK=0 OR SOCK=5)]: %GRAY%ETH %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[SUP 7cr !ETH (SOCK=0 OR SOCK=4 OR SOCK=5)]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 
 //Body Armors: 
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=15 !SOCK=1]: %PURPLE%%NAME% +15%ED [%SOCKETS%]
@@ -297,10 +299,6 @@ ItemDisplay[(crs OR bsd OR lsd) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<
 //Shields
 ItemDisplay[(uit OR ush) NMAG SOCK=0 !ETH !RW]: %NAME% %ORANGE%[%SOCKETS%]
 
-//Some additional weapons
-ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla OR 7wa OR 7p7) !ETH !RW NMAG SOCK=0]: %NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[NMAG (7cr OR 7bs OR 7ls OR 7wd OR 72h OR 7fb OR 7wa OR fla OR 7wa OR 7p7) ETH !RW NMAG SOCK=0]: ETH %NAME% %GRAY%[%SOCKETS%]
-
 //Merc Weapons 
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG SOCK=0]: %WHITE%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=0]: %GRAY%ETH %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
@@ -321,8 +319,8 @@ ItemDisplay[WP12 !ETH NMAG SK92>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Poison Nova %
 ItemDisplay[WP12 !ETH NMAG SK83>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Desecrate %YELLOW%[%SOCKETS%]
 
 //MAGIC ////////// 
-ItemDisplay[MAG EQ7 !ETH !ID]: %BLUE%%NAME% %YELLOW%Â¤Â¤
-ItemDisplay[MAG EQ7 ETH !ID]: %GRAY%ETH %BLUE%%NAME% %YELLOW%Â¤Â¤
+ItemDisplay[MAG EQ7 !ETH !ID]: %BLUE%%NAME% %YELLOW%¤¤
+ItemDisplay[MAG EQ7 ETH !ID]: %GRAY%ETH %BLUE%%NAME% %YELLOW%¤¤
 
 //Catchall My Magic Show!
 ItemDisplay[NMAG !ETH CLVL<20]: %NAME% %WHITE%[L%ILVL%]
