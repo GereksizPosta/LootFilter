@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated Feb 10, 2019)
+//Gereksiz's Loot filter (Updated Feb 9, 2019)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -255,8 +255,8 @@ ItemDisplay[(7gd OR 7fb) ETH !RW NMAG (SOCK=0 OR SOCK=5)]: %GRAY%ETH %DGREEN%%NA
 ItemDisplay[SUP 7cr !ETH (SOCK=0 OR SOCK=4 OR SOCK=5)]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 
 //Body Armors: 
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=15 !SOCK=1]: %PURPLE%%NAME% +15%ED [%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) ETH !RW ED=15 !SOCK=1]: %GRAY%ETH %PURPLE%%NAME% +15%ED [%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=15 !SOCK=1]: %PURPLE%%NAME% +15%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) ETH !RW ED=15 !SOCK=1]: %GRAY%ETH %PURPLE%%NAME% +15%ED %RED%[%SOCKETS%]
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=14 !SOCK=1]: %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) ETH !RW ED=14 !SOCK=1]: %GRAY%ETH %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=13 !SOCK=1]: %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
