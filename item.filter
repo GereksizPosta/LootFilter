@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated Feb 9, 2019)
+//Gereksiz's Loot filter (Updated Feb 10, 2019)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -282,7 +282,7 @@ ItemDisplay[CL3 ELT ETH NMAG RES>0 !SOCK=1]: %GRAY%ETH %DGREEN%%NAME% %GRAY%[%SO
 
 //Amazon Bows
 ItemDisplay[(amb OR am1 OR amc OR am2) !RW NMAG SOCK>2 TABSK0>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
-ItemDisplay[6hb !RW NMAG (SOCK=0 OR SOCK>3)]: %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[6hb !RW NMAG SOCK>3]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
 //Socket Magic
 ItemDisplay[NMAG CLVL>39 !RW (SOCK<3 AND !SOCK=0)]: 
