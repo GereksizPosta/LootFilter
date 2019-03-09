@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated Feb 15, 2019)
+//Gereksiz's Loot filter (Updated Mar 9, 2019)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -237,11 +237,11 @@ ItemDisplay[CL6 !ETH SK52>1]: %NAME% %ORANGE%+Enflame
 ItemDisplay[CL6 !ETH SK60>1]: %NAME% %ORANGE%+Chilling Armor
 
 ////Assassin Claws////
-ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs (SK274>0 AND SK275>0) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %PURPLE%+ CHAOS BASE %RED%[%SOCKETS%]
-ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs (SK277>2 AND SK278>2) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ BS + VENOM %RED%[%SOCKETS%]
-ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs SK277>1 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Blade Shield %RED%[%SOCKETS%]
-ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs SK274>0 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ BOI %RED%[%SOCKETS%]
-ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs SK275>0 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Dragon Flight %RED%[%SOCKETS%]
+ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs !9cs (SK274>0 AND SK275>0) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %PURPLE%+ CHAOS BASE %RED%[%SOCKETS%]
+ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs !9cs (SK277>2 AND SK278>2) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ BS + VENOM %RED%[%SOCKETS%]
+ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs !9cs SK277>1 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Blade Shield %RED%[%SOCKETS%]
+ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs !9cs SK274>0 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ BOI %RED%[%SOCKETS%]
+ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs !9cs SK275>0 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Dragon Flight %RED%[%SOCKETS%]
 ItemDisplay[CL5 NMAG !RW !ETH (SK271>0 OR CLSK6>0 OR SK262>0 OR SK278>0)]: %DGREEN%%NAME% %ORANGE%+ Assassin %ORANGE%[%SOCKETS%]
 
 ////Base Items - Monarch, War Pike, Thresher, Cryptic Axe, Colossus Voulge, Berserker Axe, Legend Sword, Superior Phase Blade
