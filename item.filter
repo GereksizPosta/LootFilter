@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated Mar 15, 2019)
+//Gereksiz's Loot filter (Updated May 19, 2019)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -166,11 +166,10 @@ ItemDisplay[skz]: %ORANGE%P %TAN%SKULL
 ItemDisplay[RW]: %NAME%
 
 //Crafting Belts/Boots: 
-ItemDisplay[MAG zvb EXC]: %NAME%%ORANGE% [Caster Belt]
-ItemDisplay[MAG uvc ELT]: %NAME%%ORANGE% [Caster Belt]
-ItemDisplay[MAG lbt]: %NAME%%ORANGE% [Caster Boots]
-ItemDisplay[MAG xlb]: %NAME%%ORANGE% [Caster Boots]
-ItemDisplay[MAG ulb]: %NAME%%ORANGE% [Caster Boots]
+ItemDisplay[MAG (zvb OR uvc)]: %NAME%%ORANGE% [Caster Belt]
+ItemDisplay[MAG (xlb OR ulb)]: %NAME%%ORANGE% [Caster Boots]
+ItemDisplay[MAG (zmb OR umc)]: %NAME%%RED% [Blood Belt]
+ItemDisplay[MAG (xvg OR uvg)]: %NAME%%RED% [Blood Gloves]
 
 //PURPLE UNIQUES 
 ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
@@ -220,6 +219,10 @@ ItemDisplay[MAG rin ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 //Magic Jewels
 ItemDisplay[MAG !ID jew]: %RED%%NAME%%WHITE% [L%ILVL%]
 ItemDisplay[MAG jew]: %BLUE%%NAME%
+
+//3os Scepters
+ItemDisplay[(7ws OR 7qs) ETH SOCK=3]: %GRAY%ETH %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[(7ws OR 7qs) !ETH SOCK=3]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
 //5os +3 Energy Shield Staff = CTA. 4os +3 es = Memory
 ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK58>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Energy Shield %RED%[%SOCKETS%]
