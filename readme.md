@@ -1,16 +1,17 @@
 # Gereksiz v0.01
 
-I made this filter, obviously used code from other filters. 
+I did not make this filter on my own. I used code from others, other players gave me input what items to include. 
+Thanks everyone!
 
 ## \[[Download](https://raw.githubusercontent.com/GereksizPosta/LootFilter/master/item.filter)\]
 
-I make occasional updates to the filter, I recommend downloading it from time to time. 
+I make occasional changes/updates to the filter, I recommend updating it every once in a while, and every reset. 
 
-This filter deletes inferior items as you level, test and see if you are comfortable with it. 
+This filter deletes inferior items as you level, test and see if you are comfortable with it.
 
-There are 3 unique categories: Purple, Red, Default color. 
+It doesn't tell you what is the item, like some other filters. There are 3 unique categories: Purple, Red, Default color. 
 
-Don't expect to see a lot of detail with this filter, it is meant to be a very short and lag-free filter (it has 400 lines, compared to 5000+). 
+Don't expect to see a lot of detail with this filter, it is meant to be a very short and lag-free filter (it has less than 400 lines, compared to 5-10k+). 
 Don't ask me to add items, this is a good base filter for people to add their own items.
 
 Good luck and have fun!
