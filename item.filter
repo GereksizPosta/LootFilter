@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated May 19, 2019)
+//Gereksiz's Loot filter (Updated Feb 15, 2019)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -18,12 +18,12 @@ ItemDisplay[mp5]: %BLUE%!%WHITE%M+
 ItemDisplay[(hp1 OR mp1) CLVL>14]:
 ItemDisplay[(hp2 OR mp2) CLVL>19]:
 ItemDisplay[(hp3 OR mp3) CLVL>29]:
-ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%MH
-ItemDisplay[hp2 CLVL<20]: %RED%!%WHITE%LH
-ItemDisplay[hp3 CLVL<30]: %RED%!%WHITE%Heal
-ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%MM
-ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%LM
-ItemDisplay[mp3 CLVL<30]: %BLUE%!%WHITE%Mana
+ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%H1
+ItemDisplay[hp2 CLVL<20]: %RED%!%WHITE%H2
+ItemDisplay[hp3 CLVL<30]: %RED%!%WHITE%H3
+ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%M1
+ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%M2
+ItemDisplay[mp3 CLVL<30]: %BLUE%!%WHITE%M3
 
 //Essences (Respec Token)
 ItemDisplay[tes]: %BLUE%** Suffering [A] **
@@ -38,15 +38,7 @@ ItemDisplay[cx8]: %GREEN%Orb of Enchantment
 ItemDisplay[cx7]: %PURPLE%*** KEY OF CHAOS ***
 ItemDisplay[cx6]: %ORANGE%%NAME%
 ItemDisplay[maz]: %PURPLE%%NAME%
-ItemDisplay[ma1]: %PURPLE%%NAME%
-ItemDisplay[ma2]: %PURPLE%%NAME%
-ItemDisplay[ma3]: %PURPLE%%NAME%
-ItemDisplay[ma4]: %PURPLE%%NAME%
-ItemDisplay[ma5]: %PURPLE%%NAME%
-ItemDisplay[ma6]: %PURPLE%%NAME%
-ItemDisplay[ma7]: %PURPLE%%NAME%
-ItemDisplay[ma8]: %PURPLE%%NAME%
-ItemDisplay[ma9]: %PURPLE%%NAME%
+ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11)]: %PURPLE%%NAME%
 
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
@@ -82,9 +74,11 @@ ItemDisplay[ibk]: %WHITE%Tome of ID
 
 //Hide MAGIC Quivers & Bolts above level 60
 ItemDisplay[aq2 MAG ILVL>60]:
-ItemDisplay[aq2 (RARE OR UNI OR SET) ILVL>60]: %NAME%
+ItemDisplay[aq2 RARE ILVL>60]: %NAME%
+ItemDisplay[aq2 (UNI OR SET)]: %NAME%
 ItemDisplay[cq2 MAG ILVL>60]:
-ItemDisplay[cq2 (RARE OR UNI OR SET) ILVL>60]: %NAME%
+ItemDisplay[cq2 (UNI OR SET)]: %NAME%
+ItemDisplay[cq2 RARE ILVL>60]: %NAME%
 
 //misc
 ItemDisplay[bbb OR ass OR bkd OR bks OR box OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz OR std]: %TAN%%NAME%
@@ -177,7 +171,7 @@ ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR 
 ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR uhg OR ulc OR umc OR lbl OR xtb OR uvb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %GRAY%ETH %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
 
 //RED UNIQUES
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR 8lw) !ID !ETH]: %RED%ªªª %NAME% ªªª
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR xhm OR 8lw) !ID !ETH]: %RED%ªªª %NAME% ªªª
 ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr OR 7bk) !ID ETH]: %GRAY%ETH %RED%ªªª %NAME% ªªª
 
 //UNIQUE CHARMS
@@ -189,6 +183,10 @@ ItemDisplay[UNI !ID ETH]: ETH %NAME%
 
 //SET ITEMS
 ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
+ItemDisplay[SET !ID (ghm OR gth OR hbt OR tow OR hbl OR hgl)]: %GREEN%%NAME% %GRAY%¤¤ Sigon's ¤¤
+ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]: %GREEN%%NAME% %GRAY%¤¤ Aldur's ¤¤
+ItemDisplay[SET !ID (ci3 OR amc OR uld OR xtg OR zvb)]: %GREEN%%NAME% %GRAY%¤¤ M'avina's ¤¤
+ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %GREEN%%NAME% %GRAY%¤¤ Natalya's ¤¤
 ItemDisplay[SET !ID]: %GREEN%%NAME%
 ItemDisplay[UNI ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[UNI ETH]: ETH %NAME%
@@ -205,8 +203,8 @@ ItemDisplay[RARE (rin OR amu OR jew OR EQ7) !ID]: %YELLOW%¤¤ %NAME% %RED%¤¤
 ItemDisplay[MAG cm3 ILVL>84]: %RED%%NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG cm1 ILVL=47]: %RED%%NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[!UNI (cm1 OR cm3) !ID]: %RED%%NAME%%WHITE% [L%ILVL%]
-ItemDisplay[!UNI cm2 !ID]: %NAME%%WHITE% [L%ILVL%]
-ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE%
+ItemDisplay[!UNI cm2 !ID]: %NAME%%WHITE%[L%ILVL%]
+ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE%[L%ILVL%]
 
 //Amulets
 ItemDisplay[MAG amu ILVL>87]: %BLUE%%NAME%%ORANGE% [L%ILVL%]
@@ -225,7 +223,8 @@ ItemDisplay[(7ws OR 7qs) ETH SOCK=3]: %GRAY%ETH %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[(7ws OR 7qs) !ETH SOCK=3]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
 //5os +3 Energy Shield Staff = CTA. 4os +3 es = Memory
-ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK58>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Energy Shield %RED%[%SOCKETS%]
+ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG (SK58>2 AND SK50>1) (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+ES +Shiver %RED%[%SOCKETS%]
+ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK58>2 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Energy Shield %RED%[%SOCKETS%]
 ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK52>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Enflame %RED%[%SOCKETS%]
 ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK50>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Shiver Armor %RED%[%SOCKETS%]
 ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK60>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Chilling Armor %RED%[%SOCKETS%]
@@ -240,6 +239,7 @@ ItemDisplay[CL6 !ETH SK52>1]: %NAME% %ORANGE%+Enflame
 ItemDisplay[CL6 !ETH SK60>1]: %NAME% %ORANGE%+Chilling Armor
 
 ////Assassin Claws////
+ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs !9cs (SK274>0 AND SK262>2) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %PURPLE%+ BOI + WOF %RED%[%SOCKETS%]
 ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs !9cs (SK274>0 AND SK275>0) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %PURPLE%+ CHAOS BASE %RED%[%SOCKETS%]
 ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs !9cs (SK277>2 AND SK278>2) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ BS + VENOM %RED%[%SOCKETS%]
 ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs !9cs SK277>1 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% %ORANGE%+ Blade Shield %RED%[%SOCKETS%]
