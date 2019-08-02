@@ -73,12 +73,12 @@ ItemDisplay[tbk]: %WHITE%Tome of TP
 ItemDisplay[ibk]: %WHITE%Tome of ID
 
 //Hide MAGIC Quivers & Bolts above level 60
-ItemDisplay[aq2 MAG ILVL>60]:
-ItemDisplay[aq2 RARE ILVL>60]: %NAME%
+ItemDisplay[aq2 MAG ILVL>40]:
+ItemDisplay[aq2 RARE]: %NAME%
 ItemDisplay[aq2 (UNI OR SET)]: %NAME%
-ItemDisplay[cq2 MAG ILVL>60]:
+ItemDisplay[cq2 MAG ILVL>40]:
 ItemDisplay[cq2 (UNI OR SET)]: %NAME%
-ItemDisplay[cq2 RARE ILVL>60]: %NAME%
+ItemDisplay[cq2 RARE]: %NAME%
 
 //misc
 ItemDisplay[bbb OR ass OR bkd OR bks OR box OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz OR std]: %TAN%%NAME%
