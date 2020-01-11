@@ -217,6 +217,7 @@ ItemDisplay[MAG jew]: %BLUE%%NAME%
 
 //Tiara Diadem Imbue Charsi
 ItemDisplay[NMAG (ci2 OR ci3) !RW !ETH ILVL>14 SOCK=0]: %NAME% %GRAY%[IMBUE CHARSI]
+ItemDisplay[NMAG CL1 !RW !ETH ELT SOCK=0]: %NAME% %ORANGE%[%SOCKETS%]
 
 //3os Scepters
 ItemDisplay[(7ws OR 7qs) ETH SOCK=3]: %GRAY%ETH %DGREEN%%NAME% %RED%[%SOCKETS%]
@@ -238,6 +239,9 @@ ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK84>2]: %DGREEN%%NAME% %ORANGE%+3 Bon
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK92>2]: %DGREEN%%NAME% %ORANGE%+3 Poison Nova %RED%[%SOCKETS%]
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK83>2]: %DGREEN%%NAME% %ORANGE%+3 Desecrate %RED%[%SOCKETS%]
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK74>1]: %DGREEN%%NAME% %ORANGE%+2 Corpse Exp %RED%[%SOCKETS%]
+
+/// Druid Pelts ///
+ItemDisplay[CL1 !ETH (SK244>2 OR SK250>2) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% + Druid Skills %ORANGE%[%SOCKETS%]
 
 ////Sorc orbs////
 ItemDisplay[CL6 !ETH SK40>1]: %NAME% %ORANGE%+Frigerate
