@@ -1,18 +1,6 @@
 //Gereksiz's Loot filter (Updated Jan 21, 2020)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
-ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG SOCK=4]: %GRAY%ETH %RED%%NAME% %ORANGE%[%SOCKETS%]
-//ItemDisplay[utp !ETH !RW NMAG (SOCK=0 OR SOCK=4)]: %PURPLE%%NAME% %ORANGE%[%SOCKETS%]
-
-//ItemDisplay[EQ4 (TABSK2>1 AND IAS>10)]: %PURPLE%%NAME% %RED%+2 Javelin +IAS
-//ItemDisplay[EQ4 TABSK2>1]: %PURPLE%%NAME% %ORANGE%+2 Javelin
-ItemDisplay[7s8 ETH NMAG !RW (SOCK=0 OR SOCK=4)]: %GRAY%ETH %PURPLE%%NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[7wc ETH NMAG !RW (SOCK=0 OR SOCK=4)]: %GRAY%ETH %PURPLE%%NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[SUP 7cr NMAG !ETH !RW (SOCK=0 OR SOCK=4 OR SOCK=5)]: %PURPLE%%NAME% %ORANGE%[%SOCKETS%]
-ItemDisplay[7wa ETH NMAG !RW (SOCK=0 OR SOCK=4 OR SOCK=5)]: %GRAY%ETH %PURPLE%%NAME% %ORANGE%[%SOCKETS%]
-
-ItemDisplay[WEAPON TABSK34=3]: %PURPLE%%NAME% %ORANGE% +3 War Cries
-
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[CLVL<5 GOLD<50]:
 ItemDisplay[CLVL<10 GOLD<100]:
@@ -30,12 +18,12 @@ ItemDisplay[mp5]: %BLUE%!%WHITE%M+
 ItemDisplay[(hp1 OR mp1) CLVL>14]:
 ItemDisplay[(hp2 OR mp2) CLVL>19]:
 ItemDisplay[(hp3 OR mp3) CLVL>29]:
-ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%H1
-ItemDisplay[hp2 CLVL<20]: %RED%!%WHITE%H2
-ItemDisplay[hp3 CLVL<30]: %RED%!%WHITE%H3
-ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%M1
-ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%M2
-ItemDisplay[mp3 CLVL<30]: %BLUE%!%WHITE%M3
+ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%h1
+ItemDisplay[hp2 CLVL<20]: %RED%!%WHITE%h2
+ItemDisplay[hp3 CLVL<30]: %RED%!%WHITE%h3
+ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%m1
+ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%m2
+ItemDisplay[mp3 CLVL<30]: %BLUE%!%WHITE%m3
 
 //Essences (Respec Token)
 ItemDisplay[tes]: %BLUE%** Suffering [A] **
@@ -55,9 +43,9 @@ ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
 //Uber Keys
-ItemDisplay[pk1]: %GREEN%*** Terror %YELLOW%[C] ***
-ItemDisplay[pk2]: %GREEN%*** Hate %BLUE%[S] ***
-ItemDisplay[pk3]: %GREEN%*** Destruction %RED%[N] ***
+ItemDisplay[pk1]: %GREEN%*** Terror %YELLOW%[C] %GREEN%***
+ItemDisplay[pk2]: %GREEN%*** Hate %BLUE%[S] %GREEN%***
+ItemDisplay[pk3]: %GREEN%*** Destruction %RED%[N] %GREEN%***
 ItemDisplay[dhn OR bey OR mbr]: %PURPLE%%NAME%
 //Ear
 ItemDisplay[ear]: %ORANGE%%NAME%
@@ -184,7 +172,7 @@ ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR 
 ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR uhg OR ulc OR umc OR lbl OR xtb OR uvb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %GRAY%ETH %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
 
 //RED UNIQUES
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR xhm OR 8lw) !ID !ETH]: %RED%ªªª %NAME% ªªª
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR 8lw) !ID !ETH]: %RED%ªªª %NAME% ªªª
 ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr OR 7bk) !ID ETH]: %GRAY%ETH %RED%ªªª %NAME% ªªª
 
 //UNIQUE CHARMS
@@ -196,10 +184,6 @@ ItemDisplay[UNI !ID ETH]: ETH %NAME%
 
 //SET ITEMS
 ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
-ItemDisplay[SET !ID (ghm OR gth OR hbt OR tow OR hbl OR hgl)]: %GREEN%%NAME% %GRAY%¤¤ Sigon's ¤¤
-ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]: %GREEN%%NAME% %GRAY%¤¤ Aldur's ¤¤
-ItemDisplay[SET !ID (ci3 OR amc OR uld OR xtg OR zvb)]: %GREEN%%NAME% %GRAY%¤¤ M'avina's ¤¤
-ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %GREEN%%NAME% %GRAY%¤¤ Natalya's ¤¤
 ItemDisplay[SET !ID]: %GREEN%%NAME%
 ItemDisplay[UNI ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[UNI ETH]: ETH %NAME%
@@ -216,7 +200,7 @@ ItemDisplay[RARE (rin OR amu OR jew OR EQ7) !ID]: %YELLOW%¤¤ %NAME% %RED%¤¤
 ItemDisplay[MAG cm3 ILVL>84]: %RED%%NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG cm1 ILVL=47]: %RED%%NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[!UNI (cm1 OR cm3) !ID]: %RED%%NAME%%WHITE% [L%ILVL%]
-ItemDisplay[!UNI cm2 !ID]: %NAME%%WHITE%[L%ILVL%]
+ItemDisplay[!UNI cm2 !ID]: %NAME%%WHITE% [L%ILVL%]
 ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%GRAY%[L%ILVL%]
 
 //Amulets
@@ -238,6 +222,16 @@ ItemDisplay[NMAG (ci2 OR ci3) !RW !ETH ILVL>14 SOCK=0]: %NAME% %GRAY%[IMBUE CHAR
 ItemDisplay[(7ws OR 7qs) ETH SOCK=3]: %GRAY%ETH %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[(7ws OR 7qs) !ETH SOCK=3]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
+//5os +3 Energy Shield Staff = CTA. 4os +3 es = Memory
+ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG (SK58>2 AND SK50>1) (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+ES +Shiver %RED%[%SOCKETS%]
+ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK58>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Energy Shield %RED%[%SOCKETS%]
+ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK52>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Enflame %RED%[%SOCKETS%]
+ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK50>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Shiver Armor %RED%[%SOCKETS%]
+ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK60>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Chilling Armor %RED%[%SOCKETS%]
+
+//Leveling staves/orbs
+ItemDisplay[WEAPON (CLSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR SK38>1 OR SK40>1 OR SK41>1 OR SK44>1 OR SK46>1 OR SK47>1 OR SK48>1 OR SK50>1 OR SK52>1 OR SK54>1) CLVL<41]: %NAME% %ORANGE%+Sorc Skills
+
 ////Wands////
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK67>2]: %DGREEN%%NAME% %ORANGE%+3 Teeth %RED%[%SOCKETS%]
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK84>2]: %DGREEN%%NAME% %ORANGE%+3 Bone Spear %RED%[%SOCKETS%]
@@ -247,18 +241,9 @@ ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK74>1]: %DGREEN%%NAME% %ORANGE%+2 Cor
 
 /// Druid Pelts ///
 ItemDisplay[CL1 !ETH (SK244>2 OR SK250>2) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% + Druid Skills %ORANGE%[%SOCKETS%]
-ItemDisplay[CL2 NMAG !ETH TABSK34>2]: %DGREEN%%NAME% + War Cries %ORANGE%[%SOCKETS%]
 ItemDisplay[NMAG CL1 !RW !ETH ELT SOCK=0]: %NAME% %ORANGE%[%SOCKETS%]
-
-//5os +3 Energy Shield Staff = CTA. 4os +3 es = Memory
-ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG (SK58>2 AND SK50>1) (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+ES +Shiver %RED%[%SOCKETS%]
-ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK58>2 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Energy Shield %RED%[%SOCKETS%]
-ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK52>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Enflame %RED%[%SOCKETS%]
-ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK50>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Shiver Armor %RED%[%SOCKETS%]
-ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG SK60>1 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+Chilling Armor %RED%[%SOCKETS%]
-
-//Leveling staves/orbs
-ItemDisplay[WEAPON (CLSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR SK38>1 OR SK40>1 OR SK41>1 OR SK44>1 OR SK46>1 OR SK47>1 OR SK48>1 OR SK50>1 OR SK52>1 OR SK54>1) CLVL<41]: %NAME% %ORANGE%+Sorc Skills
+/// Barb Helms //
+ItemDisplay[NMAG CL2 !ETH TABSK34>2 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% + War Cries %ORANGE%[%SOCKETS%]
 
 ////Sorc orbs////
 ItemDisplay[CL6 !ETH SK40>1]: %NAME% %ORANGE%+Frigerate
@@ -277,7 +262,7 @@ ItemDisplay[CL5 NMAG !RW !ETH (SK271>0 OR CLSK6>0 OR SK262>0 OR SK278>0)]: %DGRE
 
 ////Base Items - Monarch, War Pike, Thresher, Cryptic Axe, Colossus Voulge, Berserker Axe, Legend Sword, Superior Phase Blade
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
-ItemDisplay[6rx !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
+ItemDisplay[6rx !ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo OR crs) !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=6 OR SOCK=0)]: %GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
@@ -313,6 +298,7 @@ ItemDisplay[CL3 ELT ETH NMAG RES>39 !SOCK=1]: %GRAY%ETH %DGREEN%%NAME% %RED%[%SO
 ItemDisplay[CL3 ELT ETH NMAG RES>0 !SOCK=1]: %GRAY%ETH %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 
 //Amazon Bows
+ItemDisplay[amc !RW NMAG TABSK0>2 (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[(amb OR am1 OR amc OR am2) !RW NMAG SOCK>2 TABSK0>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[6hb !RW NMAG SOCK>3]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
@@ -330,14 +316,6 @@ ItemDisplay[(crs OR bsd OR lsd) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<
 
 //Shields
 ItemDisplay[(uit OR ush) NMAG SOCK=0 !ETH !RW]: %NAME% %ORANGE%[%SOCKETS%]
-
-//Leveling Wands
-ItemDisplay[WP12 !ETH NMAG SK67>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Teeth %YELLOW%[%SOCKETS%]
-ItemDisplay[WP12 !ETH NMAG SK68>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Bone Armor %YELLOW%[%SOCKETS%]
-ItemDisplay[WP12 !ETH NMAG SK73>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Deadly Poison %YELLOW%[%SOCKETS%]
-ItemDisplay[WP12 !ETH NMAG SK84>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Bone Spear %YELLOW%[%SOCKETS%]
-ItemDisplay[WP12 !ETH NMAG SK92>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Poison Nova %YELLOW%[%SOCKETS%]
-ItemDisplay[WP12 !ETH NMAG SK83>1 CLVL<40]: %GRAY%%NAME% %ORANGE%+ Desecrate %YELLOW%[%SOCKETS%]
 
 //MAGIC ////////// 
 ItemDisplay[MAG EQ7 !ETH !ID]: %BLUE%%NAME% %YELLOW%¤¤
