@@ -221,6 +221,7 @@ ItemDisplay[NMAG (ci2 OR ci3) !RW !ETH ILVL>14 SOCK=0]: %NAME% %GRAY%[IMBUE CHAR
 //3os Scepters
 ItemDisplay[(7ws OR 7qs) ETH SOCK=3]: %GRAY%ETH %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[(7ws OR 7qs) !ETH SOCK=3]: %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[WP13 NMAG !ETH SOCK=4]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 
 //5os +3 Energy Shield Staff = CTA. 4os +3 es = Memory
 ItemDisplay[(6cs OR 6bs OR 6ws OR 8cs OR 8bs OR 8ws OR cst OR bst OR wst) NMAG (SK58>2 AND SK50>1) (SOCK=0 OR SOCK=4)]: %DGREEN%%NAME% %ORANGE%+ES +Shiver %RED%[%SOCKETS%]
