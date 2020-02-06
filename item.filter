@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated Jan 21, 2020)
+//Gereksiz's Loot filter (Updated Feb 5, 2020)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -160,11 +160,11 @@ ItemDisplay[skz]: %ORANGE%P %TAN%SKULL
 ItemDisplay[RW]: %NAME%
 
 //Crafting Belts/Boots: 
-ItemDisplay[MAG (zvb OR uvc)]: %NAME%%ORANGE% [Caster Belt]
-ItemDisplay[MAG (xlb OR ulb)]: %NAME%%ORANGE% [Caster Boots]
-ItemDisplay[MAG (zmb OR umc)]: %NAME%%RED% [Blood Belt]
-ItemDisplay[MAG (xvg OR uvg)]: %NAME%%RED% [Blood Gloves]
-ItemDisplay[MAG uit]: %NAME%%GREEN% [Safety Shield]
+ItemDisplay[MAG (zvb OR uvc)]: %NAME%%PURPLE% [C]
+ItemDisplay[MAG (xlb OR ulb)]: %NAME%%PURPLE% [C]
+ItemDisplay[MAG (zmb OR umc)]: %NAME%%RED% [B]
+ItemDisplay[MAG (xvg OR uvg)]: %NAME%%RED% [B]
+ItemDisplay[MAG (xit OR uit)]: %NAME%%GREEN% [S]
 
 //PURPLE UNIQUES 
 ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
@@ -172,15 +172,15 @@ ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR 
 ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR uhg OR ulc OR umc OR lbl OR xtb OR uvb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %GRAY%ETH %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
 
 //RED UNIQUES
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR 8lw) !ID !ETH]: %RED%ªªª %NAME% ªªª
-ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr OR 7bk) !ID ETH]: %GRAY%ETH %RED%ªªª %NAME% ªªª
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR 8lw OR uml OR xpk) !ID !ETH]: %RED%ªªª %NAME% ªªª
+ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr OR 7bk OR uml OR xpk) !ID ETH]: %GRAY%ETH %RED%ªªª %NAME% ªªª
 
 //UNIQUE CHARMS
 ItemDisplay[UNI (cm1 OR cm2 OR cm3 OR cm4) !ID]: %PURPLE%*** %NAME% ***
 
 //Rest of the Uniques:
 ItemDisplay[UNI !ID !ETH]: %NAME% 
-ItemDisplay[UNI !ID ETH]: ETH %NAME%
+ItemDisplay[UNI !ID ETH]: %GRAY%ETH %GOLD%%NAME%
 
 //SET ITEMS
 ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
@@ -193,7 +193,8 @@ ItemDisplay[UNI]: %NAME%
 ItemDisplay[SET]: %NAME%
 
 //RARES
-ItemDisplay[RARE (rin OR amu OR jew OR EQ7) !ID]: %YELLOW%¤¤ %NAME% %RED%¤¤
+ItemDisplay[RARE (rin OR amu OR jew OR EQ7) !ETH !ID]: %YELLOW%¤¤ %NAME% %RED%¤¤
+ItemDisplay[RARE ETH EQ7 !ID]: %GRAY%ETH %YELLOW%¤¤ %NAME% %RED%¤¤
 
 //CHARMS
 //Rerolling
@@ -241,10 +242,11 @@ ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK83>2]: %DGREEN%%NAME% %ORANGE%+3 Des
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK74>1]: %DGREEN%%NAME% %ORANGE%+2 Corpse Exp %RED%[%SOCKETS%]
 
 /// Druid Pelts ///
-ItemDisplay[CL1 !ETH (SK244>2 OR SK250>2) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% + Druid Skills %ORANGE%[%SOCKETS%]
-ItemDisplay[NMAG CL1 !RW !ETH ELT SOCK=0]: %NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[CL1 NMAG !RW !ETH (SK244>2 OR SK250>2) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% + Druid Skills %ORANGE%[%SOCKETS%]
+ItemDisplay[CL1 NMAG !RW !ETH ELT SOCK=0]: %NAME% %ORANGE%[%SOCKETS%]
 /// Barb Helms //
 ItemDisplay[NMAG CL2 !ETH TABSK34>2 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% + War Cries %ORANGE%[%SOCKETS%]
+ItemDisplay[(ba7 OR ba9) NMAG !ETH SOCK=0]: %NAME% %ORANGE%[%SOCKETS%]
 
 ////Sorc orbs////
 ItemDisplay[CL6 !ETH SK40>1]: %NAME% %ORANGE%+Frigerate
