@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated Feb 5, 2020)
+//Gereksiz's Loot filter (Updated Jan 21, 2020)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -183,7 +183,7 @@ ItemDisplay[UNI !ID !ETH]: %NAME%
 ItemDisplay[UNI !ID ETH]: %GRAY%ETH %GOLD%%NAME%
 
 //SET ITEMS
-ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
+ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9 OR xul) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
 ItemDisplay[SET !ID]: %GREEN%%NAME%
 ItemDisplay[UNI ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[UNI ETH]: ETH %NAME%
