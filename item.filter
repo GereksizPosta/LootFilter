@@ -246,6 +246,7 @@ ItemDisplay[CL1 NMAG !RW !ETH (SK244>2 OR SK250>2) (SOCK=0 OR SOCK=3)]: %DGREEN%
 ItemDisplay[CL1 NMAG !RW !ETH ELT SOCK=0]: %NAME% %ORANGE%[%SOCKETS%]
 /// Barb Helms //
 ItemDisplay[NMAG CL2 !ETH TABSK34>2 (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% + War Cries %ORANGE%[%SOCKETS%]
+ItemDisplay[WEAPON !ETH TABSK34=3]: %NAME%%PURPLE% *** +3 War Cries ***
 ItemDisplay[(ba7 OR ba9) NMAG !ETH SOCK=0]: %NAME% %ORANGE%[%SOCKETS%]
 
 ////Sorc orbs////
