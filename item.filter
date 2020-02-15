@@ -175,25 +175,22 @@ ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR 
 ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR 8lw OR uml OR xpk) !ID !ETH]: %RED%ªªª %NAME% ªªª
 ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR 7fl OR ztb OR 7kr OR 7bk OR uml OR xpk) !ID ETH]: %GRAY%ETH %RED%ªªª %NAME% ªªª
 
+
 //UNIQUE CHARMS
 ItemDisplay[UNI (cm1 OR cm2 OR cm3 OR cm4) !ID]: %PURPLE%*** %NAME% ***
 
 //Rest of the Uniques:
-ItemDisplay[UNI !ID !ETH]: %NAME% 
+ItemDisplay[UNI !ID !ETH]: %NAME%
 ItemDisplay[UNI !ID ETH]: %GRAY%ETH %GOLD%%NAME%
+ItemDisplay[UNI ETH SOCK>0]: %GRAY%ETH %GOLD%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[UNI ETH]: %GRAY%ETH %GOLD%%NAME%
+ItemDisplay[UNI SOCK>0]: %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[UNI]: %NAME%
 
 //SET ITEMS
-ItemDisplay[SET !ID (uh9 OR xul OR utc OR xmg OR ne9)]: %RED%** %GREEN%%NAME% %GRAY%TRANG'S %RED%**
-ItemDisplay[SET !ID (xmb OR xh9 OR 7qr OR ucl)]: %RED%** %GREEN%%NAME% %GRAY%NAT'S %RED%**
-ItemDisplay[SET !ID (ci3 OR uld OR xtg OR amc OR zvb)]: %RED%** %GREEN%%NAME% %GRAY%MAVINA'S %RED%**
 ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9 OR xul) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
-ItemDisplay[SET (amu OR rin) !ID ]: %RED%** %GREEN%%NAME% %RED%**
 ItemDisplay[SET !ID]: %GREEN%%NAME%
-ItemDisplay[UNI ETH SOCK>0]: ETH %NAME% [%SOCKETS%]
-ItemDisplay[UNI ETH]: ETH %NAME%
-ItemDisplay[UNI SOCK>0]: %NAME% [%SOCKETS%]
-ItemDisplay[SET SOCK>0]: %NAME% [%SOCKETS%]
-ItemDisplay[UNI]: %NAME%
+ItemDisplay[SET SOCK>0]: %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[SET]: %NAME%
 
 //RARES
