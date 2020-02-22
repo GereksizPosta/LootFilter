@@ -168,8 +168,8 @@ ItemDisplay[MAG (xit OR uit)]: %NAME%%GREEN% [S]
 
 //PURPLE UNIQUES 
 ItemDisplay[UNI (rin OR amu OR jew OR EQ7) !ID ]: %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
-ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR lbl OR xtb OR uvb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID !ETH]: %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
-ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR lbl OR xtb OR uvb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %GRAY%ETH %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
+ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR lbl OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID !ETH]: %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
+ItemDisplay[UNI (ci3 OR uap OR urn OR usk OR xh9 OR baa OR dra OR dre OR ulm OR xhn OR uar OR xlt OR uar OR uvg OR ulc OR umc OR lbl OR xtb OR obf OR 7gw OR obc OR 6lw OR 7s8 OR 7cr OR ama OR uit OR nea OR pa9 OR xea) !ID ETH]: %GRAY%ETH %PURPLE%¤ØØØ¤ %NAME% ¤ØØØ¤
 
 //RED UNIQUES
 ItemDisplay[UNI (pac OR zvb OR xhb OR uui OR hgl OR tgl OR lbt OR xrs OR xhn OR xpl OR xsh OR xmb OR xvb OR zhb OR uhg OR zlb OR uhm OR upl OR uld OR uow OR uvb OR 7wa OR 7ws OR 7gm OR 6cs OR 6ws OR 7gd OR amf OR oba OR umg OR rxb OR 7fl OR ztb OR 7kr OR 6l7 OR amb OR 7bk OR 8lw OR uml OR xpk OR 7sp OR bac OR xtp) !ID !ETH]: %RED%ªªª %NAME% ªªª
