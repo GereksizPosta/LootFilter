@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated Mar 25, 2020)
+//Gereksiz's Loot filter (Updated Mar 5, 2020)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //Hide Gold Piles Smaller Than (<) X
@@ -241,6 +241,7 @@ ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK84>2]: %DGREEN%%NAME% %ORANGE%+3 Bon
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK92>2]: %DGREEN%%NAME% %ORANGE%+3 Poison Nova %RED%[%SOCKETS%]
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK83>2]: %DGREEN%%NAME% %ORANGE%+3 Desecrate %RED%[%SOCKETS%]
 ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK74>1]: %DGREEN%%NAME% %ORANGE%+2 Corpse Exp %RED%[%SOCKETS%]
+ItemDisplay[WP12 !ETH !wnd !ywn !9wn NMAG SK73=3]: %DGREEN%%NAME% %ORANGE%+3 Deadly Poison %RED%[%SOCKETS%]
 
 /// Druid Pelts ///
 ItemDisplay[CL1 NMAG !RW !ETH (SK244>2 OR SK250>2) (SOCK=0 OR SOCK=3)]: %DGREEN%%NAME% + Druid Skills %ORANGE%[%SOCKETS%]
