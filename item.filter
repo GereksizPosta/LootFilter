@@ -302,6 +302,7 @@ ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR
 
 //Paladin Shields
 ItemDisplay[CL3 !ETH NMAG RES>39 (!SOCK=1)]: %DGREEN%%NAME% %RED%[%SOCKETS%]
+ItemDisplay[CL3 !ETH NMAG RES>25 (!SOCK=1)]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[CL3 ELT !ETH NMAG RES>39 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[CL3 ELT !ETH NMAG RES>0 (SOCK=3 OR SOCK=4)]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[CL3 ELT !ETH NMAG RES>39 !SOCK=1]: %DGREEN%%NAME% %RED%[%SOCKETS%]
