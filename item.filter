@@ -1,4 +1,4 @@
-//Gereksiz's Loot filter (Updated Mar 5, 2020)
+//Gereksiz's Loot filter (Updated Aug 21, 2020)
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
 
 //ItemDisplay[fla SOCK=4]: %DGREEN%%NAME% %RED%[%SOCKETS%]
@@ -276,7 +276,7 @@ ItemDisplay[CL5 NMAG !RW !ETH (SK271>1 OR CLSK6>1 OR SK262>1 OR SK278>1)]: %DGRE
 ////Base Items - Monarch, War Pike, Thresher, Cryptic Axe, Colossus Voulge, Berserker Axe, Legend Sword, Superior Phase Blade
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
 ItemDisplay[6rx !ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
-ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo OR crs) !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo OR crs) !ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[7p7 ETH !RW NMAG (SOCK=6 OR SOCK=0)]: %GRAY%ETH %PURPLE%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[72h ETH !RW NMAG (SOCK=3 OR SOCK=0)]: %GRAY%ETH %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
@@ -285,8 +285,10 @@ ItemDisplay[(7gd OR 7fb) ETH !RW NMAG (SOCK=0 OR SOCK=5 OR SOCK=6)]: %GRAY%ETH %
 ItemDisplay[SUP 7cr !ETH (SOCK=0 OR SOCK=4 OR SOCK=5)]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
 
 //Body Armors: 
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=15 !SOCK=1]: %PURPLE%%NAME% +15%ED %RED%[%SOCKETS%]
-ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) ETH !RW ED=15 !SOCK=1]: %GRAY%ETH %PURPLE%%NAME% +15%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=15 !SOCK=1]: %PURPLE%%NAME% +15%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG (xtp OR uui OR utp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) ETH !RW ED=15 !SOCK=1]: %GRAY%ETH %PURPLE%%NAME% +15%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG ltp !ETH !RW ED=15 !SOCK=1]: %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
+ItemDisplay[NMAG ltp ETH !RW ED=15 !SOCK=1]: %GRAY%ETH %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=14 !SOCK=1]: %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) ETH !RW ED=14 !SOCK=1]: %GRAY%ETH %DGREEN%%NAME% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[NMAG (xtp OR uui OR utp OR ltp OR uar OR uth OR uld OR uhn OR utu OR uea OR ula OR ung OR ucl) !ETH !RW ED=13 !SOCK=1]: %DGREEN%%NAME% +13%ED %RED%[%SOCKETS%]
