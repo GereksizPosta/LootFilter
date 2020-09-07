@@ -190,7 +190,7 @@ ItemDisplay[UNI]: %NAME%
 //SET ITEMS
 ItemDisplay[SET !ID (uh9 OR xul OR utc OR xmg OR ne9)]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
 ItemDisplay[SET !ID (xmb OR xh9 OR 7qr OR ucl)]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
-ItemDisplay[SET !ID (ci3 OR uld OR xtg OR amc OR zvb)]: %RED%¤¤ %GREEN%%NAME% %GRAY% %RED%¤¤
+ItemDisplay[SET !ID (ci3 OR amc)]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
 ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
 ItemDisplay[SET (amu OR rin) !ID ]: %GREEN%%NAME%
 ItemDisplay[SET !ID]: %GREEN%%NAME%
@@ -272,7 +272,8 @@ ItemDisplay[CL5 NMAG !RW !ETH !7xf !7cs !9cs SK275>0 (SOCK=0 OR SOCK=3)]: %DGREE
 ItemDisplay[CL5 NMAG !RW !ETH (SK271>1 OR CLSK6>1 OR SK262>1 OR SK278>1)]: %DGREEN%%NAME% %ORANGE%+ Assassin %ORANGE%[%SOCKETS%]
 
 ////Base Items - Monarch, War Pike, Thresher, Cryptic Axe, Colossus Voulge, Berserker Axe, Legend Sword, Superior Phase Blade
-ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91>5 (SOCK=4 OR SOCK=0)]: %DGREEN%%NAME% %RED%[%SOCKETS%] []
+ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91=10 (SOCK=4 OR SOCK=0)]: %DGREEN%%NAME% %RED%[%SOCKETS%] [-10]
+ItemDisplay[uit !ETH !RW NMAG ITEMSTAT91>5 (SOCK=4 OR SOCK=0)]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
 ItemDisplay[6rx !ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] 
 ItemDisplay[(7s8 OR 7wc OR 7pa OR 7vo) !ETH !RW NMAG (SOCK=4 OR SOCK=0)]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%]
