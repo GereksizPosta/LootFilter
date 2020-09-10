@@ -191,7 +191,7 @@ ItemDisplay[UNI]: %NAME%
 ItemDisplay[SET !ID (uh9 OR xul OR utc OR xmg OR ne9)]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
 ItemDisplay[SET !ID (xmb OR xh9 OR 7qr OR ucl)]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
 ItemDisplay[SET !ID (ci3 OR amc)]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
-ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR uld OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
+ItemDisplay[SET (ult OR uth OR uar OR xtb OR ulg OR xap OR stu OR paf OR ci3 OR amc OR xhm OR oba OR xsk OR zmb OR xmg OR utc OR ne9) !ID]: %RED%¤¤ %GREEN%%NAME% %RED%¤¤
 ItemDisplay[SET (amu OR rin) !ID ]: %GREEN%%NAME%
 ItemDisplay[SET !ID]: %GREEN%%NAME%
 ItemDisplay[SET SOCK>0]: %NAME% %GRAY%[%SOCKETS%]
