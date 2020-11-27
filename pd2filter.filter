@@ -113,7 +113,7 @@ ItemDisplay[jew MAG !ID]: %DOT-9A%%BLUE%%NAME%%WHITE% [L%ILVL%]
 ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%YELLOW%*** %NAME% %YELLOW%***
 
 //GG UNIQUES
-ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%****** %NAME% %PURPLE%****** %NL% ****************
+ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%****** %NAME% %PURPLE%****** %NL% 
 
 //OK UNIQUES
 //belts
