@@ -59,7 +59,14 @@ ItemDisplay[glr]: %NAME% %ORANGE%[%RED%O%ORANGE%]%CONTINUE%
 ItemDisplay[glb]: %NAME% %ORANGE%[%BLUE%O%ORANGE%]%CONTINUE%
 ItemDisplay[gly]: %NAME% %ORANGE%[%YELLOW%O%ORANGE%]%CONTINUE%
 ItemDisplay[skl]: %NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
-ItemDisplay[gzv OR glw OR glg OR glr OR glb OR gly OR skl]: %NAME%{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+//ItemDisplay[gzv OR glw OR glg OR glr OR glb OR gly OR skl]: %NAME%{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
+ItemDisplay[gzv]: %ORANGE%Amethyst
+ItemDisplay[glw]: %ORANGE%Diamond
+ItemDisplay[glg]: %ORANGE%Emerald
+ItemDisplay[glr]: %ORANGE%Ruby
+ItemDisplay[glb]: %ORANGE%Sapphire
+ItemDisplay[gly]: %ORANGE%Topaz
+ItemDisplay[skl]: %ORANGE%Skull
 ItemDisplay[gpv]: %NAME% %ORANGE%[%PURPLE%O%ORANGE%]
 ItemDisplay[gpw]: %NAME% %ORANGE%[%WHITE%O%ORANGE%]
 ItemDisplay[gpg]: %NAME% %ORANGE%[%GREEN%O%ORANGE%]
@@ -94,10 +101,10 @@ ItemDisplay[GEMTYPE=7 GEM<4]: %NAME% %ORANGE%[%GRAY%*%ORANGE%]
 ItemDisplay[GEMTYPE=7 GEM>3]: %NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
 
 //Runes
-ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) (CLVL>1 AND CLVL<80)]: %PX-62%%ORANGE%** %RUNENAME% ** [%RUNENUM%]
+ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17) (CLVL>1 AND CLVL<80)]: %PX-62%%ORANGE%** %RUNENAME% ** [%RUNENUM%] 
 ItemDisplay[RUNE<15 OR RUNE=16 OR RUNE=17 CLVL>79]: %ORANGE%** %RUNENAME% ** [%RUNENUM%]
 ItemDisplay[RUNE=15 OR RUNE=18 OR RUNE=19]: %PX-62%%ORANGE%|*** %RUNENAME% ***| [%RUNENUM%]
-ItemDisplay[RUNE>19 AND RUNE<26]: %DOT-62%%PURPLE%|***** %RUNENAME% %PURPLE%*****| [%RUNENUM%]
+ItemDisplay[RUNE>19 AND RUNE<26]: %DOT-62%%NL%%PURPLE%|***** %RUNENAME% %PURPLE%*****| [%RUNENUM%]
 ItemDisplay[RUNE>25]: %BORDER-62%%NL%%PURPLE%|+++++++++ %PURPLE%%RUNENAME% RUNE %PURPLE%+++++++++| [%RUNENUM%]
 
 //All Charms
@@ -113,7 +120,7 @@ ItemDisplay[jew MAG !ID]: %DOT-9A%%BLUE%%NAME%%WHITE% [L%ILVL%]
 ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%YELLOW%*** %NAME% %YELLOW%***
 
 //GG UNIQUES
-ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%****** %NAME% %PURPLE%****** %NL% 
+ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%NL%%PURPLE%****** %NAME% %PURPLE%******
 
 //OK UNIQUES
 //belts
