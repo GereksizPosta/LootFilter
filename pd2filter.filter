@@ -20,7 +20,7 @@ ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]: %NAME% %GRAY%(%TAN%$%WHITE%%PRI
 
 //Health & Mana Potions
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
-ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
+ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 ItemDisplay[hp4]: %RED%!%WHITE%H
 ItemDisplay[hp5]: %RED%!%WHITE%H+
 ItemDisplay[mp4]: %BLUE%!%WHITE%M
@@ -107,13 +107,13 @@ ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %PX-68%%PURPLE%*** %NAME% %PURPLE%***
 ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%GRAY%[L%ILVL%]
 
 //Highlight Good Magic items
-ItemDisplay[jew MAG !ID]: %DOT-9A%%TAN%*%WHITE%*   %BLUE%%NAME%%WHITE%   *%TAN%*
+ItemDisplay[jew MAG !ID]: %DOT-9A%%BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Highlight Good Rare items
-ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%TAN%*%WHITE%*   %YELLOW%%NAME%%WHITE%   *%TAN%*
+ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%YELLOW%*** %NAME% %YELLOW%***
 
 //GG UNIQUES
-ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%****** %NAME% %PURPLE%******
+ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%****** %NAME% %PURPLE%****** %NL% ****************
 
 //OK UNIQUES
 //belts
