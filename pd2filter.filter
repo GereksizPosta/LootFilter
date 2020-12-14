@@ -1,5 +1,5 @@
 // Kryszard's PD2 Loot Filter
-// Modified by GereksizPosta
+// Modified by GereksizPosta Dec 12, 2020
 
 //Gold
 ItemDisplay[GOLD<100 CLVL<18]:
@@ -51,7 +51,6 @@ ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
 
 //Gems
-//fix for flaweless and perfects for some reason it need that fix?
 ItemDisplay[gzv]: %NAME% %ORANGE%[%PURPLE%O%ORANGE%]%CONTINUE%
 ItemDisplay[glw]: %NAME% %ORANGE%[%WHITE%O%ORANGE%]%CONTINUE%
 ItemDisplay[glg]: %NAME% %ORANGE%[%GREEN%O%ORANGE%]%CONTINUE%
@@ -453,4 +452,4 @@ ItemDisplay[SHIELD (EXC OR ELT) !INF !SUP SOCK=0 NMAG CLVL<80]: %NAME%{%WHITE%Th
 
 //HIDE EVERYTHING ELSE part 2
 ItemDisplay[(ARMOR OR WEAPON) INF]: 
-ItemDisplay[(ARMOR OR WEAPON) !leg CLVL>18]: 
+ItemDisplay[(ARMOR OR WEAPON) !leg CLVL>18]:
