@@ -389,6 +389,9 @@ ItemDisplay[ARMOR EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ko %WHIT
 ItemDisplay[WEAPON NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}
 ItemDisplay[WEAPON EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}
 
+ItemDisplay[(WEAPON OR ARMOR) ELT !INF !ETH (SOCK>3 AND SOCK=0)]: %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[(WEAPON OR ARMOR) ELT !INF ETH (SOCK>3 AND SOCK=0)]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
+
 //Always show me those items
 ItemDisplay[UNI OR SET OR RW OR CRAFT]: %NAME%
 
@@ -398,9 +401,6 @@ ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%
 //Potentially expensive (Woth some GOLD) items
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %NAME% %GRAY%(%TAN%$%WHITE%%PRICE%%GRAY%)
 ItemDisplay[(WAND OR SOR) NMAG (!ETH AND !INF) PRICE>18999]: %NAME% %GRAY%(%TAN%$%WHITE%%PRICE%%GRAY%)
-
-ItemDisplay[(WEAPON OR ARMOR) ELT !INF !ETH (SOCK>3 AND SOCK=0)]: %NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[(WEAPON OR ARMOR) ELT !INF ETH (SOCK>3 AND SOCK=0)]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 
 //Show me quantitiy of all stackables
 //ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk OR wss) QTY>0]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
