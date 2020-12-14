@@ -176,7 +176,8 @@ ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%
 
 //Rare ETH EXC and ELT weapons
 ItemDisplay[WEAPON RARE (EXC OR ELT) ETH !ID]: %NAME%
-ItemDisplay[(WEAPON OR ARMOR) ELT]: %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[(WEAPON OR ARMOR) ELT !INF !ETH SOCK>3]: %NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[(WEAPON OR ARMOR) ELT !INF ETH SOCK>3]: %GRAY%ETH %NAME% %GRAY%[%SOCKETS%]
 
 //Craftables
 ItemDisplay[GLOVES ((EXC OR ELT) !(utg OR uhg)) MAG !ID]: %GRAY%* %BLUE%%NAME% %GRAY%*
