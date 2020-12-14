@@ -388,8 +388,8 @@ ItemDisplay[ARMOR EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ko %WHIT
 ItemDisplay[WEAPON NORM SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}
 ItemDisplay[WEAPON EXC SET ID]: %NAME%{%GREEN%This Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%TAN%Note%WHITE%: Upgrading Recipe:}
 
-ItemDisplay[(WEAPON OR ARMOR) ELT !INF !ETH (SOCK=0 OR SOCK>2)]: %DOT-D6%%NAME%
-ItemDisplay[(WEAPON OR ARMOR) ELT !INF ETH (SOCK=0 OR SOCK>2)]: %DOT-D6%%GRAY%ETH %NAME% 
+ItemDisplay[(WEAPON OR ARMOR) ELT !INF !ETH (SOCK=0 OR SOCK>2)]: %NAME%
+ItemDisplay[(WEAPON OR ARMOR) ELT !INF ETH (SOCK=0 OR SOCK>2)]: %NAME% 
 
 //Always show me those items
 ItemDisplay[UNI OR SET OR RW OR CRAFT]: %NAME%
