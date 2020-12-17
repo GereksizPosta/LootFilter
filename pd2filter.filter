@@ -423,9 +423,11 @@ ItemDisplay[bet]: %NAME%{%TAN%Essence %WHITE%from: %RED%Diablo}%CONTINUE%
 ItemDisplay[fed]: %NAME%{%TAN%Essence %WHITE%from: %DARK_GREEN%Baal}%CONTINUE%
 
 //Uber Keys
-ItemDisplay[pk1]: %NAME%{%TAN%Key %WHITE%from: %RED%Countess %WHITE%or %RED%Blood Raven}%CONTINUE%
-ItemDisplay[pk2]: %NAME%{%TAN%Key %WHITE%from: %BLUE%Summoner %WHITE%or %BLUE%Bloodwitch}%CONTINUE%
-ItemDisplay[pk3]: %NAME%{%TAN%Key %WHITE%from: %PURPLE%Nihlathak %WHITE%or %PURPLE%Izual}%CONTINUE%
+ItemDisplay[pk1]: %MAP-9B%%PURPLE%+++ %NAME% +++ {%WHITE%Key from: %RED%Countess %WHITE%or %RED%Blood Raven}%CONTINUE%
+ItemDisplay[pk2]: %MAP-9B%%PURPLE%+++ %NAME% +++ {%WHITE%Key from: %BLUE%Summoner %WHITE%or %BLUE%Bloodwitch}%CONTINUE%
+ItemDisplay[pk3]: %MAP-9B%%PURPLE%+++ %NAME% +++ {%WHITE%Key from: %PURPLE%Nihlathak %WHITE%or %PURPLE%Izual}%CONTINUE%
+
+ItemDisplay[dhn OR bey OR mbr]: %MAP-9B%%PURPLE%+++ %NAME% +++ 
 
 //Runes Note
 ItemDisplay[RUNE>0]: %NAME%{%TAN%Note%WHITE%: Mix %ORANGE%Runes %WHITE%with %GRAY%key %WHITE%to upg}%CONTINUE%
