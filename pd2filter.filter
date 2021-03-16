@@ -180,7 +180,7 @@ ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%
 ItemDisplay[WEAPON RARE (EXC OR ELT) ETH !ID]: %NAME%
 
 //Show me Craftable Elite and Exceptional Weapons
-ItemDisplay[WEAPON MAG (EXC OR ELT) !ID]: %NAME% %WHITE%[L%LVL%]
+ItemDisplay[(WEAPON OR ARMOR) MAG (EXC OR ELT) !ID]: %NAME% %WHITE%[L%LVL%]
 
 //Craftables
 ItemDisplay[GLOVES ((EXC OR ELT) !(utg OR uhg)) MAG !ID]: %GRAY%* %BLUE%%NAME% %GRAY%*
