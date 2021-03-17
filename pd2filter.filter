@@ -54,51 +54,14 @@ ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
 
 //Gems
-ItemDisplay[gcv CLVL<30]: chipped amethyst
-ItemDisplay[gcw CLVL<30]: chipped diamond
-ItemDisplay[gcg CLVL<30]: chipped emerald
-ItemDisplay[gcr CLVL<30]: chipped ruby
-ItemDisplay[gcb CLVL<30]: chipped sapphire
-ItemDisplay[gcy CLVL<30]: chipped topaz
-ItemDisplay[skc CLVL<30]: chipped skull
-ItemDisplay[gcv CLVL>29]:
-ItemDisplay[gcw CLVL>29]:
-ItemDisplay[gcg CLVL>29]:
-ItemDisplay[gcr CLVL>29]:
-ItemDisplay[gcb CLVL>29]:
-ItemDisplay[gcy CLVL>29]:
-ItemDisplay[skc CLVL>29]:
-//Gems Flawed
-ItemDisplay[gfv CLVL<40]: flawed amethyst
-ItemDisplay[gfw CLVL<40]: flawed diamond
-ItemDisplay[gfg CLVL<40]: flawed emerald
-ItemDisplay[gfr CLVL<40]: flawed ruby
-ItemDisplay[gfb CLVL<40]: flawed sapphire
-ItemDisplay[gfy CLVL<40]: flawed topaz
-ItemDisplay[skf CLVL<40]: flawed skull
-ItemDisplay[gfv CLVL>39]:
-ItemDisplay[gfw CLVL>39]:
-ItemDisplay[gfg CLVL>39]:
-ItemDisplay[gfr CLVL>39]:
-ItemDisplay[gfb CLVL>39]:
-ItemDisplay[gfy CLVL>39]:
-ItemDisplay[skf CLVL>39]:
-//Gems Normal
-ItemDisplay[gsv CLVL<50]: amethyst
-ItemDisplay[gsw CLVL<50]: diamond
-ItemDisplay[gsg CLVL<50]: emerald
-ItemDisplay[gsr CLVL<50]: ruby
-ItemDisplay[gsb CLVL<50]: sapphire
-ItemDisplay[gsy CLVL<50]: topaz
-ItemDisplay[sku CLVL<50]: skull
-ItemDisplay[gsv CLVL>49]:
-ItemDisplay[gsw CLVL>49]:
-ItemDisplay[gsg CLVL>49]:
-ItemDisplay[gsr CLVL>49]:
-ItemDisplay[gsb CLVL>49]:
-ItemDisplay[gsy CLVL>49]:
-ItemDisplay[sku CLVL>49]:
-//Gems flawless
+ItemDisplay[gzv]: %NAME% %ORANGE%[%PURPLE%O%ORANGE%]%CONTINUE%
+ItemDisplay[glw]: %NAME% %ORANGE%[%WHITE%O%ORANGE%]%CONTINUE%
+ItemDisplay[glg]: %NAME% %ORANGE%[%GREEN%O%ORANGE%]%CONTINUE%
+ItemDisplay[glr]: %NAME% %ORANGE%[%RED%O%ORANGE%]%CONTINUE%
+ItemDisplay[glb]: %NAME% %ORANGE%[%BLUE%O%ORANGE%]%CONTINUE%
+ItemDisplay[gly]: %NAME% %ORANGE%[%YELLOW%O%ORANGE%]%CONTINUE%
+ItemDisplay[skl]: %NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
+//ItemDisplay[gzv OR glw OR glg OR glr OR glb OR gly OR skl]: %NAME%{%TAN%Note%WHITE%: Mix Gems with %GRAY%key %WHITE%to upg}
 ItemDisplay[gzv]: %ORANGE%Amethyst
 ItemDisplay[glw]: %ORANGE%Diamond
 ItemDisplay[glg]: %ORANGE%Emerald
@@ -106,14 +69,13 @@ ItemDisplay[glr]: %ORANGE%Ruby
 ItemDisplay[glb]: %ORANGE%Sapphire
 ItemDisplay[gly]: %ORANGE%Topaz
 ItemDisplay[skl]: %ORANGE%Skull
-//Gems Perfect
-ItemDisplay[gpv]: %ORANGE%P %PURPLE%AMETHYST
-ItemDisplay[gpw]: %ORANGE%P %WHITE%DIAMOND
-ItemDisplay[gpg]: %ORANGE%P %GREEN%EMERALD
-ItemDisplay[gpr]: %ORANGE%P %RED%RUBY
-ItemDisplay[gpb]: %ORANGE%P %BLUE%SAPPHIRE
-ItemDisplay[gpy]: %ORANGE%P %YELLOW%TOPAZ
-ItemDisplay[skz]: %ORANGE%P %TAN%SKULL
+ItemDisplay[gpv]: %NAME% %ORANGE%[%PURPLE%O%ORANGE%]
+ItemDisplay[gpw]: %NAME% %ORANGE%[%WHITE%O%ORANGE%]
+ItemDisplay[gpg]: %NAME% %ORANGE%[%GREEN%O%ORANGE%]
+ItemDisplay[gpr]: %NAME% %ORANGE%[%RED%O%ORANGE%]
+ItemDisplay[gpb]: %NAME% %ORANGE%[%BLUE%O%ORANGE%]
+ItemDisplay[gpy]: %NAME% %ORANGE%[%YELLOW%O%ORANGE%]
+ItemDisplay[skz]: %NAME% %ORANGE%[%GRAY%O%ORANGE%]
 
 //hiding low ones
 ItemDisplay[GEM<3 DIFF>0]:
