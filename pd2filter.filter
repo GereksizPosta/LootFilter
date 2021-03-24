@@ -1,5 +1,5 @@
 // Kryszard's PD2 Loot Filter
-// Modified by GereksizPosta 1/1/2021
+// Modified by GereksizPosta 3/24/2021
 
 //Gold
 ItemDisplay[GOLD<100 CLVL<18]:
@@ -7,7 +7,7 @@ ItemDisplay[GOLD<1000 (CLVL>17 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
 
 //Highlight Throwing and Javelin magic+eth
-ItemDisplay[(JAV OR THROWING) ETH MAG !ID]: %DOT-D6%%WHITE%[ETH] %ORANGE%%NAME%%CONTINUE%
+ItemDisplay[(JAV OR THROWING) ETH MAG !ID]: %DOT-D6%%ORANGE%%NAME%%CONTINUE%
 
 //Show me that item is etheral
 ItemDisplay[ETH UNI]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%%NAME%%CONTINUE%
